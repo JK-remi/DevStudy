@@ -252,6 +252,6 @@ Animation Sequence Editor 자체는 Unity Editor에서 동작하는 인하우스
 
 - [Thread & Coroutine](Advanced/Thread.md)
 - [DOTS (ECS / Job System / Burst)](Advanced/DOTS.md)
-- [Dependency Injection](Advanced/DI(Dependency_Injection).md)
+- [Dependency Injection](Advanced/DI.md)
 - [NavMesh 최적화](Advanced/NavMesh.md)
 - [Memory & GC](Advanced/Memory.md)
