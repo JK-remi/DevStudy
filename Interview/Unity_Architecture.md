@@ -68,7 +68,7 @@ Unity Lifecycle이 필요 없고 데이터를 저장하거나 Utility 성격을 
 
 ### 꼬리 질문
 
-- DTO란?
+- DTO란?  
 [DTO](Advanced/DTO.md)
 
 ---
@@ -100,11 +100,11 @@ GameManager를 DontDestroyOnLoad로 유지했고 첫 Scene에만 배치했습니
 ### 꼬리 질문
 
 - Singleton의 장단점은?
-- 대체 구조는?
-[Singleton](Advanced/Singleton.md)
-[DI](Advanced/DI.md)
-[Service_Locator](Advanced/Service_Locator.md)
-[Event](#delegate-/-event)
+- 대체 구조는?  
+[Singleton](Advanced/Singleton.md)  
+[DI](Advanced/DI.md)  
+[Service_Locator](Advanced/Service_Locator.md)  
+[Event](#delegate-/-event)  
 
 ---
 
@@ -120,7 +120,7 @@ Oracle War는 서버 기반 MasterData를 사용했기 때문에 사용하지 �
 
 ### 꼬리 질문
 
-- JSON과 차이는?
+- JSON과 차이는?  
 [DTO](Advanced/DTO.md)
 
 ---
@@ -161,8 +161,8 @@ Destroy(Component)는 해당 Component만 제거합니다.
 
 필수 Component가 있어야 하는 Script에서 사용합니다.
 
-Projectile이 반드시 Collider를 가져야 하는 경우처럼 Component를 자동 생성할 수 있습니다.
-
+Projectile이 반드시 Collider를 가져야 하는 경우처럼 Component를 자동 생성할 수 있습니다.  
+  
 [Required Component](Advanced/Required_Component.md)
 
 ---
@@ -239,9 +239,9 @@ UnityEvent는 Inspector 연결이 가능하며 C# Event보다 디자이너 친�
 
 # Related Concepts
 
-- [Dependency_Injection](Advanced/DI.md)
-- [Service_Locator](Advanced/Service_Locator.md)
-- [Singleton](Advanced/Singleton.md)
-- [ScriptableObject](Advanced/ScriptableObject.md)
-- [DTO](Advanced/DTO.md)
-- [Required Component](Advanced/Required_Component.md)
+- [Dependency_Injection](Advanced/DI.md)  
+- [Service_Locator](Advanced/Service_Locator.md)  
+- [Singleton](Advanced/Singleton.md)  
+- [ScriptableObject](Advanced/ScriptableObject.md)  
+- [DTO](Advanced/DTO.md)  
+- [Required Component](Advanced/Required_Component.md)  
