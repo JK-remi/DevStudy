@@ -35,4 +35,8 @@ ScriptableObject
 - CharacterData
 - SkillData
 
+---
+
+## 면접 답변
+
 OracleWar에서는 서버 기반 MasterData 구조를 사용했기 때문에 ScriptableObject를 사용하지 않았습니다.
