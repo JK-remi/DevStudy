@@ -31,4 +31,4 @@
 
 - [Dependency Injection](DI.md)
 - [Service Locator](Service_Locator.md)
-- [Event](../Unity_Architeture.md#delegate_event)
+- [Event](../Unity_Architecture.md#delegate_event)
