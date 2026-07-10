@@ -47,4 +47,4 @@ Thread에서는 순수 계산만 수행해야 합니다.
 
 자세한 내용은 DOTS 문서를 참고합니다.
 
-→ DOTS.md
+→ [DOTS.md](DOTS.md)
