@@ -30,5 +30,5 @@
 ## 대체 구조
 
 - [Dependency Injection](DI.md)
-- [Service Locator]
+- [Service Locator](Service_Locator.md)
 - [Event]
