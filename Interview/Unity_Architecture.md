@@ -104,7 +104,7 @@ GameManager를 DontDestroyOnLoad로 유지했고 첫 Scene에만 배치했습니
 [Singleton](Advanced/Singleton.md)  
 [DI](Advanced/DI.md)  
 [Service_Locator](Advanced/Service_Locator.md)  
-[Event](#delegate-/-event)  
+[Event](#delegate_event)  
 
 ---
 
@@ -217,7 +217,7 @@ Oracle War에서는 Singleton Instance와 Utility 함수에서 사용했습니�
 
 ---
 
-## const / readonly
+## const_readonly
 
 ### 답변
 
@@ -225,7 +225,7 @@ const는 컴파일 타임 상수이고 readonly는 생성 시 한 번 초기화 
 
 ---
 
-## delegate / event
+## delegate_event
 
 ### 답변
 
