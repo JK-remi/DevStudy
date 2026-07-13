@@ -1,6 +1,6 @@
 # Unity Animation
 
-## 목표
+## 🎯 Goal
 
 - Unity Animation 시스템의 구조를 이해한다.
 - Mechanim(Animator)의 핵심 개념(State, Transition, Blend Tree 등)을 이해한다.
@@ -209,7 +209,7 @@ Animation Sequence System은 Animation과 Event를 분리하여 관리하는 시
 
 **답변**
 
-Root Motion은 Animation에 포함된 Root Bone의 이동 정보를 이용하여 Character를 이동시키는 기능입니다.
+Root Motion은 Animation에 포함된 Root Bone의 이동 정보를 이용하여 Animation의 이동량과 Character의 실제 이동을 동기화할 수 있습니다.
 
 **Oracle War 경험**
 
@@ -238,7 +238,7 @@ Animation Layer는 여러 Animation을 동시에 재생하기 위한 기능입�
 
 **답변**
 
-Avatar Mask는 특정 Bone에만 Animation을 적용하는 기능입니다. Animation Layer와 함께 사용하여 상체와 하체에 서로 다른 Animation을 적용할 수 있습니다.
+Avatar Mask는 특정 Bone에만 Animation을 적용하는 기능입니다. Animation Layer와 함께 사용하여 원하는 Bone에만 Animation을 적용합니다.
 
 ---
 
@@ -251,7 +251,7 @@ Avatar Mask는 특정 Bone에만 Animation을 적용하는 기능입니다. Anim
 
 **답변**
 
-IK는 손이나 발의 목표 위치를 지정하면 관절의 회전을 자동으로 계산하여 자연스러운 자세를 만드는 기능입니다.
+IK는 손이나 발의 목표 위치를 지정하면 관절의 회전을 자동으로 계산하여 자연스러운 자세를 만드는 기능입니다.  
 
 ---
 
@@ -312,7 +312,8 @@ Animator Override Controller는 기존 Animator Controller의 State와 Transitio
 
 **답변**
 
-Animator 내부에서는 Parameter를 Hash 값으로 관리합니다. StringToHash()를 사용하면 문자열 비교 대신 정수(Hash) 비교를 수행하므로 Parameter 접근 비용을 줄일 수 있습니다. Update처럼 자주 호출되는 경우 미리 Hash를 저장하여 사용하는 것이 좋습니다.
+Animator 내부에서는 Parameter를 Hash 값으로 관리합니다. StringToHash()를 사용하면 문자열 비교 대신 정수(Hash) 비교를 수행하므로 Parameter 접근 비용을 줄일 수 있습니다. 
+Update처럼 자주 호출되는 경우 미리 Hash를 저장하여 사용하는 것이 좋습니다.
 
 ---
 
@@ -365,7 +366,11 @@ Animator Update Mode는 Animator가 어떤 Update 주기에 맞춰 동작할지�
 
 **답변**
 
-Animation 최적화를 위해 Animation Compression으로 메모리 사용량을 줄이고, Avatar Mask와 Layer를 활용하여 필요한 Bone만 계산하도록 구성합니다. 또한 화면 밖의 캐릭터는 Culling Mode를 사용하여 Animation 계산을 줄이고, Parameter 접근 시 StringToHash를 사용하여 문자열 비교 비용을 줄입니다. Animation Event 역시 필요한 경우에만 사용하는 것이 유지보수와 성능 측면에서 유리합니다.  
+Animation 최적화를 위해 Animation Compression으로 메모리 사용량을 줄이고, 
+Avatar Mask와 Layer를 활용하여 필요한 Bone만 계산하도록 구성합니다. 
+또한 화면 밖의 캐릭터는 Culling Mode를 사용하여 Animation 계산을 줄이고, 
+Parameter 접근 시 StringToHash를 사용하여 문자열 비교 비용을 줄입니다. 
+Animation Event 역시 필요한 경우에만 사용하는 것이 유지보수와 성능 측면에서 유리합니다.  
 NPC 수가 매우 많은 경우에는 Animator 자체를 줄이거나 DOTS(Animation) 또는 단순 Sprite/Bone 갱신 방식으로 대체하는 것도 고려합니다.  
 
 ---
