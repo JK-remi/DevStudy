@@ -26,32 +26,31 @@ DOTS는 데이터를 중심(Data-Oriented)으로 관리하여 Cache 효율을 �
 
 ## ECS
 
-기존
+**기존**
 
-GameObject
-↓
-Transform
-↓
-Renderer
-↓
-AI
-↓
-HP
+GameObject  
+↓  
+Transform  
+↓  
+Renderer  
+↓  
+AI  
+↓  
+HP  
 
 객체 중심
 
 ---
 
-ECS
+**ECS**
 
-Transform Data
-HP Data
-AI Data
+Transform Data  
+HP Data  
+AI Data  
 
 처럼 데이터 종류별로 연속 저장합니다.
 
-장점
-
+**장점**
 - CPU Cache 효율 증가
 - 반복 처리 속도 향상
 - 동일한 Component를 한 번에 처리하기 때문에 Branch가 적다.
