@@ -205,7 +205,7 @@ Animation Sequence System은 Animation과 Event를 분리하여 관리하는 시
 
 ## Q16. Root Motion이란?
 
-- Root Bone
+Legacy Animation에서는 사용할 수 없으며, Oracle War에서는 Legacy 기반으로 개발하여 Root Bone의 이동량을 직접 계산하여 Character 이동에 반영하였다.
 
 ### 답변
 
@@ -213,7 +213,8 @@ Root Motion은 Animation에 포함된 Root Bone의 이동 정보를 이용하여
 
 ### Oracle War 경험
 
-Unity Root Motion 대신 Root Bone 이동량을 추출하여 Animation Sequence Data에 저장하고 Runtime에서 적용했습니다.
+Legacy Animation에서는 사용할 수 없으므로, Unity Root Motion 대신 Root Bone 이동량을 추출하여 Animation Sequence Data에 저장하고 Runtime에서 적용했습니다.
+※ Unity의 Root Motion은 Mecanim(Animator)에서 제공하는 기능이다.  
 
 ### 예상 꼬리 질문
 - 왜 Unity Root Motion 안 썼나요?
@@ -223,7 +224,7 @@ Unity Root Motion 대신 Root Bone 이동량을 추출하여 Animation Sequence 
 
 ## Q17. Animation Layer란?
 
-- 동시 재생
+- Animation을 여러 개 동시에 재생하기 위한 계층  
 
 ### 답변
 
@@ -238,7 +239,8 @@ Animation Layer는 여러 Animation을 동시에 재생하기 위한 기능입�
 
 ### 답변
 
-Avatar Mask는 특정 Bone에만 Animation을 적용하는 기능입니다. Animation Layer와 함께 사용하여 원하는 Bone에만 Animation을 적용합니다.
+Animation Layer는 Animation을 여러 개 동시에 재생하기 위한 계층입니다.  
+Avatar Mask는 해당 Layer가 어떤 Bone에 적용될지를 결정합니다.  
 
 ---
 
