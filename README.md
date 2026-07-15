@@ -15,62 +15,53 @@
 
 ## 🎮 Interview
 
-Unity 및 게임 프로그래밍 면접 대비 내용을 정리했습니다.
-
 ### Unity
 
-- Unity Lifecycle
-- Unity Architecture
-- Unity Animation
-- Unity Physics
+- 📄 [Unity Lifecycle](Interview/Unity_Lifecycle.md)
+- 📄 [Unity Architecture](Interview/Unity_Architecture.md)
+- 📄 [Unity Animation](Interview/Unity_Animation.md)
+- 📄 [Unity Physics](Interview/Unity_Physics.md)
 
 ### Advanced
 
-- DI
-- DOTS
-- DTO
-- Interface
-- Memory
-- NavMesh
-- RequiredComponent
-- ScriptableObject
-- Service Locator
-- Singleton
-- Thread
+- 📄 [Dependency Injection](Interview/Advanced/DI.md)
+- 📄 [DOTS](Interview/Advanced/DOTS.md)
+- 📄 [DTO](Interview/Advanced/DTO.md)
+- 📄 [Interface](Interview/Advanced/Interface.md)
+- 📄 [Memory](Interview/Advanced/Memory.md)
+- 📄 [NavMesh](Interview/Advanced/NavMesh.md)
+- 📄 [Required Component](Interview/Advanced/Required_Component.md)
+- 📄 [ScriptableObject](Interview/Advanced/ScriptableObject.md)
+- 📄 [Service Locator](Interview/Advanced/Service_Locator.md)
+- 📄 [Singleton](Interview/Advanced/Singleton.md)
+- 📄 [Thread](Interview/Advanced/Thread.md)
 
 ---
 
 ## 💻 Coding Test
 
-프로그래머스 문제 풀이 및 풀이 과정을 정리했습니다.
+### Programmers
 
-- 다리를 지나는 트럭
-- 더 맵게
-- 디스크 컨트롤러
-- 베스트 앨범
-- 완주하지 못한 선수
-- 의상
-- 전화번호 목록
-- 주식가격
-- 폰켓몬
-- 프로세스
+- 📄 [[프로그래머스] 다리를 지나는 트럭](CodingTest/[프로그래머스]%20다리를%20지나는%20트럭.md)
+- 📄 [[프로그래머스] 더 맵게](CodingTest/[프로그래머스]%20더%20맵게.md)
+- 📄 [[프로그래머스] 디스크 컨트롤러](CodingTest/[프로그래머스]%20디스크%20컨트롤러.md)
+- 📄 [[프로그래머스] 베스트 앨범](CodingTest/[프로그래머스]%20베스트%20앨범.md)
+- 📄 [[프로그래머스] 완주하지 못한 선수](CodingTest/[프로그래머스]%20완주하지%20못한%20선수.md)
+- 📄 [[프로그래머스] 의상](CodingTest/[프로그래머스]%20의상.md)
+- 📄 [[프로그래머스] 전화번호 목록](CodingTest/[프로그래머스]%20전화번호%20목록.md)
+- 📄 [[프로그래머스] 주식가격](CodingTest/[프로그래머스]%20주식가격.md)
+- 📄 [[프로그래머스] 폰켓몬](CodingTest/[프로그래머스]%20폰켓몬.md)
+- 📄 [[프로그래머스] 프로세스](CodingTest/[프로그래머스]%20프로세스.md)
 
 ---
 
 ## 🤖 LLM
 
-LLM 관련 학습 내용과 실습을 정리했습니다.
-
-- Encoder / Decoder
-- Attention
-- Transformer
-- RAG
-- Azure OpenAI
-- Prompt Engineering
+- 📓 [Chapter02 - Encoder Decoder](LLM_onlybooks/Chapter02_Encoder_Decoder.ipynb)
 
 ---
 
-# 📌 Goal
+# 🎯 Goal
 
 - Unity 클라이언트 개발 역량 향상
 - Game AI Agent 개발 역량 향상
@@ -100,46 +91,4 @@ LLM 관련 학습 내용과 실습을 정리했습니다.
 
 ---
 
-# 📅 Progress
-
-### Unity
-
-- [x] Lifecycle
-- [x] Architecture
-- [x] Animation
-- [x] Physics
-- [ ] UI
-- [ ] Optimization
-- [ ] Rendering
-
-### C#
-
-- [ ] Delegate / Event
-- [ ] Memory
-- [ ] Thread
-- [ ] Async / Await
-
-### Design Pattern
-
-- [x] Singleton
-- [x] Service Locator
-- [x] DI
-- [ ] Observer
-- [ ] Factory
-- [ ] Strategy
-
-### Game Programming
-
-- [x] NavMesh
-- [ ] FSM
-- [ ] Behavior Tree
-- [ ] CharacterController
-
-### Coding Test
-
-- Programmers
-- BOJ (예정)
-
----
-
-> 지속적으로 학습 내용을 업데이트하고 있습니다.
+> 꾸준히 학습 내용을 기록하고 업데이트하고 있습니다.
