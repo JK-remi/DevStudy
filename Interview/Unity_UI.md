@@ -145,7 +145,7 @@ button.onClick.AddListener(() => OnClickItem(itemId));
 
 ### 예상 꼬리 질문
 
-- Lambda 사용 시 RemoveListener가 어려운 이유는?
+- Lambda 사용 시 RemoveListener가 어려운 이유는?  
 [Lambda](Advanced/Lambda.md)
 
 ---
