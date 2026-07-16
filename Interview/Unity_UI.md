@@ -244,6 +244,10 @@ CPU 비용이 큰 작업이므로 최소화하는 것이 좋습니다.
 ### 예상 꼬리 질문
 
 - Rebuild를 많이 발생시키는 Component는?
+  - Layout Group
+  - Content Size Fitter
+  - Text(TextMeshPro 포함)
+  - RectTransform 변경
 
 ---
 
@@ -310,7 +314,6 @@ TextMeshPro는 Signed Distance Field(SDF)를 사용합니다.
 - SDF란?
   - 글자의 윤곽선까지의 거리를 저장한 데이터.
   - 확대/축소 시 글자 깨지지 않고 선명하게 표현.
-
 
 ---
 
