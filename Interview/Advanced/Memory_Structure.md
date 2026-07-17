@@ -95,6 +95,8 @@ Heap 객체는 더 이상 참조되지 않을 때 Garbage Collector가 회수합
 
 메서드가 종료되면 자동으로 제거됩니다.
 
+---
+
 ## 📖 Stack이 Heap보다 빠른 이유
 
 Stack = LIFO구조 사용.  
