@@ -90,7 +90,7 @@ class는 Reference Type이기 때문에 객체의 주소를 복사합니다.
 ## Q4. struct를 사용하는 경우는?
 
 - Small Data
-- GC
+- GC Free
 - Value Type
 
 ### 답변
@@ -210,7 +210,7 @@ GC가 실행되는 동안에는 관리 대상 객체를 검사하기 위해 프�
 
 - Object Pool
 - StringBuilder
-- List Reuse
+- Reuse
 - RaycastNonAlloc
 - Heap Allocation
 
