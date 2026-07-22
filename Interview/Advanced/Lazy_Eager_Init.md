@@ -80,20 +80,14 @@ Instance 생성
 
 ### 1. 메모리 절약
 
-사용하지 않는 객체는 생성하지 않습니다.
-
-예를 들어
-
+사용하지 않는 객체는 생성하지 않습니다. 예를 들어
 ```text
 DebugManager
 ```
-
 가 실제 게임에서 한 번도 사용되지 않았다면
-
 ```text
 메모리 사용 = 0
 ```
-
 입니다.
 
 ---
@@ -103,14 +97,12 @@ DebugManager
 프로그램 시작 시 생성하는 객체 수가 줄어듭니다.
 
 게임 시작 시
-
 ```text
 GameManager
 SoundManager
 ResourceManager
 ...
 ```
-
 전부 생성하지 않아도 됩니다.
 
 ---
@@ -120,7 +112,6 @@ ResourceManager
 ### 1. 첫 접근 시 생성 비용 발생
 
 처음 호출하는 순간
-
 ```text
 메모리 할당
 
@@ -132,7 +123,6 @@ ResourceManager
 
 초기화
 ```
-
 가 일어나므로 순간적인 비용이 발생합니다.
 
 ---
@@ -140,7 +130,6 @@ ResourceManager
 ### 2. Thread Safe 문제
 
 Multi Thread 환경에서는
-
 ```text
 Thread A
 
@@ -158,16 +147,11 @@ instance == null
 
 둘 다 new 수행
 ```
-
-이 가능하므로
-
-Singleton이 깨질 수 있습니다.
+이 가능하므로 Singleton이 깨질 수 있습니다.
 
 이를 해결하려면
-
 - lock
 - Lazy<T>
-
 등을 사용해야 합니다.
 
 ---
@@ -189,9 +173,7 @@ Singleton이 깨질 수 있습니다.
 
 ## 정의
 
-프로그램이 시작될 때
-객체를 **미리 생성**하는 방식입니다.
-
+프로그램이 시작될 때 객체를 **미리 생성**하는 방식입니다.  
 Instance를 호출하기 전부터 이미 존재합니다.
 
 ---
@@ -236,7 +218,6 @@ Instance 생성 완료
 ### 1. 첫 접근이 빠름
 
 이미 생성되어 있으므로
-
 ```text
 Instance 호출
 
@@ -244,27 +225,22 @@ Instance 호출
 
 즉시 반환
 ```
-
 됩니다.
 
 ---
 
 ### 2. Thread Safe
 
-CLR의 static 초기화 과정은 Thread Safe가 보장됩니다.
-
-따라서 별도의 lock 없이도 안전합니다.
+CLR의 static 초기화 과정은 Thread Safe가 보장됩니다. 따라서 별도의 lock 없이도 안전합니다.
 
 ---
 
 ### 3. 구현이 단순
 
 if문도 필요 없습니다.
-
 ```csharp
 public static GameManager Instance => instance;
 ```
-
 만으로 끝납니다.
 
 ---
@@ -274,35 +250,25 @@ public static GameManager Instance => instance;
 ### 1. 사용하지 않아도 생성됨
 
 예를 들어
-
 ```text
 DebugManager
 ```
-
-를 한 번도 사용하지 않아도
-
-프로그램 시작 시 생성됩니다.
+를 한 번도 사용하지 않아도 프로그램 시작 시 생성됩니다.
 
 ---
 
 ### 2. 메모리 선점
 
-필요하지 않은 객체도
-
-메모리를 차지합니다.
+필요하지 않은 객체도 메모리를 차지합니다.
 
 ---
 
 ### 3. 초기 로딩 비용 증가
 
-모든 Singleton을 미리 생성하면
-
-게임 시작 시
-
+모든 Singleton을 미리 생성하면 게임 시작 시
 ```text
 초기화 비용
 ```
-
 이 증가할 수 있습니다.
 
 ---
@@ -312,7 +278,6 @@ DebugManager
 항상 사용하는 객체
 
 예)
-
 - GameManager
 - TimeManager
 - SettingManager
@@ -335,16 +300,11 @@ DebugManager
 # Unity에서는?
 
 Unity의 `MonoBehaviour`는
-
 ```csharp
 new GameManager();
 ```
-
-를 사용할 수 없습니다.
-
-따라서 일반적인 Lazy/Eager 방식 대신
-
-Awake에서 Instance를 등록합니다.
+를 사용할 수 없습니다. 
+따라서 일반적인 Lazy/Eager 방식 대신 Awake에서 Instance를 등록합니다.
 
 ```csharp
 public class GameManager : MonoBehaviour
@@ -365,10 +325,7 @@ public class GameManager : MonoBehaviour
 }
 ```
 
-즉,
-
-Unity에서는
-
+즉, Unity에서는
 ```text
 생성
 
@@ -384,7 +341,6 @@ Awake
 
 Instance 등록
 ```
-
 이라는 생명주기를 사용합니다.
 
 ---
