@@ -84,6 +84,7 @@ where는 Generic Type에 제약조건을 부여하는 문법입니다.
 Generic은 컴파일 시 실제 타입이 결정되므로 object로 변환할 필요가 없습니다.  
 
 따라서 Boxing / Unboxing이 발생하지 않습니다.
+- [Boxing](Interview/Csharp_Memory.md#Q5._Boxing과_Unboxing이란?)  
 
 ---
 
