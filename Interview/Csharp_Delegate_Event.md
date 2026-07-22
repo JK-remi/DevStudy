@@ -123,6 +123,7 @@ Unity에서는 Button.onClick, Sequence 완료 후 다음 동작을 연결하는
 
 ### 답변
 Lambda는 Delegate를 간결하게 작성하기 위한 문법입니다. 결국 Lambda도 Delegate에 저장되어 실행됩니다.
+- [Lambda](Advanced/Lambda.md)  
 
 ---
 
