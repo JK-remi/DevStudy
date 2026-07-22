@@ -4,14 +4,11 @@
 
 # SOLID란?
 
-SOLID는 객체지향 프로그래밍(OOP)에서 **유지보수성과 확장성을 높이기 위한 5가지 설계 원칙**입니다.
+SOLID는 객체지향 프로그래밍(OOP)에서 **유지보수성과 확장성을 높이기 위한 5가지 설계 원칙**입니다.  
 
-Design Pattern이 "구현 방법"이라면,
-
-SOLID는 **좋은 설계를 하기 위한 기준**입니다.
+Design Pattern이 "구현 방법"이라면, SOLID는 **좋은 설계를 하기 위한 기준**입니다.  
 
 즉,
-
 ```text
 SOLID
 
@@ -27,8 +24,7 @@ Design Pattern
 
 그 원칙을 구현하는 대표적인 방법
 ```
-
-이라고 이해하면 됩니다.
+이라고 이해하면 됩니다.  
 
 ---
 
@@ -42,12 +38,7 @@ Design Pattern
 
 ## 의미
 
-클래스가 여러 가지 역할을 수행하면
-
-변경 이유도 여러 개가 됩니다.
-
-그러면
-
+클래스가 여러 가지 역할을 수행하면 변경 이유도 여러 개가 됩니다. 그러면
 ```text
 UI 수정
 
@@ -55,7 +46,6 @@ UI 수정
 
 Game Logic 버그
 ```
-
 같은 문제가 발생할 수 있습니다.
 
 ---
@@ -77,15 +67,7 @@ class Player
 }
 ```
 
-Player가
-
-- 이동
-- 전투
-- 저장
-- 사운드
-- UI
-
-모두 담당하고 있습니다.
+Player가 이동 / 전투 / 저장 / 사운드 / UI 모두 담당하고 있습니다.
 
 ---
 
@@ -110,7 +92,6 @@ PlayerSave
 
 PlayerUI
 ```
-
 역할을 분리합니다.
 
 ---
@@ -142,7 +123,6 @@ PlayerAnimator
 ## Oracle War
 
 Oracle War에서도
-
 ```text
 Sequence System
 
@@ -152,7 +132,6 @@ Camera
 
 Effect
 ```
-
 를 각각 따로 분리했습니다.
 
 ---
@@ -167,11 +146,7 @@ Effect
 
 ## 의미
 
-새로운 기능이 추가될 때
-
-기존 코드를 수정하지 않고
-
-새로운 코드를 추가하는 형태가 되어야 합니다.
+새로운 기능이 추가될 때 기존 코드를 수정하지 않고, 새로운 코드를 추가하는 형태가 되어야 합니다.
 
 ---
 
@@ -187,10 +162,7 @@ else if(type == Ice)
 else if(type == Wind)
 ...
 ```
-
-속성이 추가될 때마다
-
-기존 코드를 수정합니다.
+속성이 추가될 때마다 기존 코드를 수정합니다.
 
 ---
 
@@ -211,7 +183,6 @@ IceSkill
 
 WindSkill
 ```
-
 새로운 클래스를 추가합니다.
 
 ---
@@ -235,7 +206,6 @@ Boss
 ## Oracle War
 
 FSM의
-
 ```text
 Idle
 
@@ -243,12 +213,7 @@ Move
 
 Attack
 ```
-
-각 State를
-
-새 클래스로 추가하는 구조도
-
-OCP를 만족합니다.
+각 State를 새 클래스로 추가하는 구조도 OCP를 만족합니다.
 
 ---
 
@@ -262,9 +227,7 @@ OCP를 만족합니다.
 
 ## 의미
 
-업캐스팅 이후에도
-
-동일한 동작을 해야 합니다.
+업캐스팅 이후에도 동일한 동작을 해야 합니다.
 
 ---
 
@@ -275,10 +238,7 @@ Animal animal = new Dog();
 
 animal.Move();
 ```
-
-Dog가 들어와도
-
-Animal처럼 정상 동작해야 합니다.
+Dog가 들어와도 Animal처럼 정상 동작해야 합니다.
 
 ---
 
@@ -295,10 +255,7 @@ Slime
 
 Boss
 ```
-
-Spawner는
-
-EnemyBase만 알아도 됩니다.
+Spawner는 EnemyBase만 알아도 됩니다.
 
 ---
 
@@ -322,7 +279,6 @@ interface IEnemy
     Fly();
 }
 ```
-
 Slime도 Fly를 구현해야 합니다.
 
 ---
@@ -336,7 +292,6 @@ IAttack
 
 IFly
 ```
-
 필요한 것만 구현합니다.
 
 ---
@@ -364,7 +319,6 @@ IPoolable
 ## 의미
 
 직접
-
 ```text
 new
 
@@ -372,15 +326,11 @@ Singleton
 
 구체 클래스
 ```
-
-를 참조하지 않고
-
-Interface를 사용합니다.
+를 참조하지 않고, Interface를 사용합니다.
 
 ---
 
 ## 나쁜 예
-
 ```csharp
 Player
 
@@ -388,7 +338,6 @@ Player
 
 SoundManager.Instance
 ```
-
 직접 참조
 
 ---
@@ -402,41 +351,23 @@ Player
 
 ISoundManager
 ```
-
 Interface 참조
 
 ---
 
 ## Unity 예시
 
-DI
-
-Zenject
-
-Event
-
-Observer
-
-Service Locator
-
-등이
-
-대표적인 해결 방법입니다.
+DI / Zenject / Event / Observer / Service Locator 등이 대표적인 해결 방법입니다.
 
 ---
 
 ## Oracle War
 
 현재는
-
 ```text
 Singleton Manager
 ```
-
-를 많이 사용했지만
-
-추후에는
-
+를 많이 사용했지만 추후에는
 ```text
 Observer
 
@@ -444,30 +375,23 @@ DI
 
 Event
 ```
-
-구조로 변경하면
-
-DIP를 더 잘 만족할 수 있습니다.
+구조로 변경하면 DIP(Dependency Inversion Principle)를 더 잘 만족할 수 있습니다.
 
 ---
 
 # SOLID와 Design Pattern 관계
 
 SOLID는
-
 ```text
 좋은 설계 원칙
 ```
-
-이고
+이고,  
 
 Design Pattern은
-
 ```text
 그 원칙을 구현하는 대표적인 방법
 ```
-
-입니다.
+입니다.  
 
 예를 들어
 
@@ -523,4 +447,4 @@ Design Pattern은
 
 ### Q. Singleton은 SOLID를 위반하나요?
 
-> 상황에 따라 DIP를 위반할 수 있으므로 남용은 지양해야 합니다.
+> 상황에 따라 DIP(Dependency Inversion Principle)를 위반할 수 있으므로 남용은 지양해야 합니다.
