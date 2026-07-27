@@ -2,26 +2,6 @@
 
 ---
 
-# 핵심 정리
-
-### FSM
-- 상태(State) 중심
-- 상태 전환으로 행동 결정
-
-### Behavior Tree
-- 현재 상황(Condition) 중심
-- Tree를 순회하여 행동 선택
-
-### GOAP
-- 목표(Goal) 중심
-- 목표 달성을 위한 계획 생성
-
-### Utility AI
-- 점수(Score) 중심
-- 현재 가장 가치 있는 행동 선택
-
----
-
 # 행동 AI 비교
 
 | 구분 | FSM | Behavior Tree | GOAP | Utility AI |
