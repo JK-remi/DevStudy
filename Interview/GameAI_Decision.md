@@ -41,7 +41,8 @@ FSM(Finite State Machine)은 객체의 동작을 유한한(State) 상태로 나�
 ### 추천 답변
 
 - **State**: 객체가 현재 수행 중인 행동이나 상태를 의미합니다.  
-- **Transition**: 특정 조건을 만족했을 때 다른 State로 전환하는 규칙입니다.  
+- **Transition**: 특정 조건을 만족했을 때 다른 State로 전환하는 규칙입니다.
+ 
 FSM은 현재 State를 기준으로 Transition 조건을 검사하고, 조건을 만족하면 다음 State로 변경됩니다.  
 
 ---
@@ -95,7 +96,8 @@ FSM은 상태(State)와 상태 전환(Transition)을 이용하여 AI를 구현�
 State Pattern은 이러한 FSM을 객체지향적으로 구현하는 대표적인 Design Pattern입니다.  
 즉,  
 - FSM = AI의 동작 방식  
-- State Pattern = FSM 구현 방식  
+- State Pattern = FSM 구현 방식
+
 이라는 차이가 있습니다.
 
 ---
@@ -130,10 +132,10 @@ FSM보다 확장성이 뛰어나며, 새로운 행동을 추가하거나 수정�
 
 ### 추천 답변
 
-**Composite**: 자식 Node를 실행하는 Node입니다. 대표적으로 Selector / Sequence 가 Composite입니다.
-**Decorator**: Child Node 실행 여부를 결정하거나, 실행 결과를 변경하는 Node입니다.  
+- **Composite**: 자식 Node를 실행하는 Node입니다. 대표적으로 Selector / Sequence 가 Composite입니다.  
+- **Decorator**: Child Node 실행 여부를 결정하거나, 실행 결과를 변경하는 Node입니다.  
 예) HP < 30% / Enemy Visible / Cooldown Check 등 조건을 검사한 뒤 Child를 실행합니다.
-**Leaf**: 실제로 행동(Action)을 수행하거나 조건(Condition)을 검사하는 Node입니다.  
+- **Leaf**: 실제로 행동(Action)을 수행하거나 조건(Condition)을 검사하는 Node입니다.  
 예) Action(Move / Attack / Heal) / Condition(Enemy Visible / HP Low)
 
 ### 꼬리 질문
@@ -150,8 +152,6 @@ FSM보다 확장성이 뛰어나며, 새로운 행동을 추가하거나 수정�
 예)  
 ```
 Enemy Near? → Attack → Heal → Idle
-```
-```
 Attack 성공 → 끝  
 ```
 #### Sequence
@@ -160,8 +160,6 @@ Child를 순서대로 실행하며, 하나라도 Failure가 발생하면 즉시 
 예)  
 ```
 Move → Aim → Attack
-```
-```
 Move 실패 → Attack 실행 안 함
 ```
 
@@ -243,8 +241,6 @@ Behavior Tree처럼 미리 정의된 행동 순서를 사용하는 것이 아니
 ```
 Move → Attack
 
-또는
-
 Reload → Move → Attack
 ```
 처럼 Planning이 달라질 수 있습니다.  
@@ -258,14 +254,14 @@ Reload → Move → Attack
 
 ### 추천 답변
 
-**Goal**: AI가 최종적으로 달성하고자 하는 목표입니다.  
+- **Goal**: AI가 최종적으로 달성하고자 하는 목표입니다.  
 예) Enemy Dead / Eat Food / Escape  
-**World State**: 현재 게임 내 상태를 의미합니다.  
+- **World State**: 현재 게임 내 상태를 의미합니다.  
 예) Enemy Visible / Has Weapon / HP Low / Ammo Empty  
-**Action**: Goal을 달성하기 위해 수행할 수 있는 행동입니다.  
+- **Action**: Goal을 달성하기 위해 수행할 수 있는 행동입니다.  
 각 Action은 Preconditions(전제조건) / Effects(결과) 를 가지고 있습니다.  
-- Move (Enemy Visible(Pre) / Near Enemy(Post))
-- Attack (Near Enemy(Pre) / Enemy Dead(Post))
+  - Move (Enemy Visible(Pre) / Near Enemy(Post))
+  - Attack (Near Enemy(Pre) / Enemy Dead(Post))
 
 ---
 
@@ -320,9 +316,6 @@ Move → Reload → Attack
 예를 들어
 ```
 배고픔 → 음식 찾기 → 이동 → 먹기
-```
-또는
-```
 Enemy Dead → 무기 획득 → 이동 → 공격
 ```
 처럼 상황에 따라 Planning이 달라지는 AI에서 주로 사용됩니다.
@@ -439,7 +432,8 @@ Boss AI나 Auto Play 시스템에서 사용할 수 있습니다.
 예를 들어
 - HP가 낮으면 Heal 점수가 높아지고
 - 적이 가까우면 Attack 점수가 높아지며
-- 스킬 쿨타임이 끝났다면 Skill 사용 점수가 높아집니다.
+- 스킬 쿨타임이 끝났다면 Skill 사용 점수가 높아집니다.  
+  
 현재 상황에서 모든 행동의 Score를 계산한 뒤, 가장 높은 점수의 행동을 선택하여 실행합니다.
 
 ---
@@ -453,7 +447,8 @@ Quest 진행 여부, HP, MP, 적의 수, 스킬 쿨타임 등을 기반으로 �
 예를 들어  
 - Quest 완료 → Return Score 증가
 - HP 부족 → Heal Score 증가
-- Quest 진행 중 → Monster Search Score 증가  
+- Quest 진행 중 → Monster Search Score 증가
+
 처럼 현재 상황에 맞는 행동을 선택하도록 설계하겠습니다.
 
 ### 꼬리 질문
