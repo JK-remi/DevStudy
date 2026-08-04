@@ -59,7 +59,7 @@ Display
 ### 꼬리 질문
 
 - Rendering Pipeline에서 Rasterization의 역할은 무엇인가요?
-  - [Resterization](./Advanced/Rendering_Pipeline.md)
+  - [Resterization](./Advanced/Rendering_Pipeline.md#6-rasterization)
 
 ---
 
@@ -491,3 +491,11 @@ Alpha Blend는 **Alpha 값을 이용하여 앞 오브젝트와 뒤 오브젝트�
 Oracle War는 던전 기반으로 시간 변화가 거의 없기 때문에 Static 오브젝트의 조명과 그림자는 Baked Lighting을 사용하겠습니다.
 
 움직이는 캐릭터와 이펙트만 Realtime Lighting을 적용하여 성능과 품질의 균형을 맞추겠습니다.
+
+---
+
+# Related Concepts
+- [Rendering Pipeline](./Advanced/Rendering_Pipeline.md)
+- [Vertex/Fragment(Pixel)]((./Advanced/Vetex_Fragment_Shader.md))
+- [Texture Compression](./Advanced/Texture_Compression.md)
+- [Z Buffer](./Advanced/Z_Buffer.md)
