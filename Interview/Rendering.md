@@ -215,7 +215,7 @@ Shader
 ## Q3. Vertex Shader와 Fragment(Pixel) Shader의 차이를 설명해주세요.
 
 - 위치 / 색
-- [Vertex/Fragment(Pixel)]((./Advanced/Vertex_Fragment_Shader.md))
+- [Vertex/Fragment(Pixel)](./Advanced/Vertex_Fragment_Shader.md)
 
 ### 답변
 
@@ -496,6 +496,6 @@ Oracle War는 던전 기반으로 시간 변화가 거의 없기 때문에 Stati
 
 # Related Concepts
 - [Rendering Pipeline](./Advanced/Rendering_Pipeline.md)
-- [Vertex/Fragment(Pixel)]((./Advanced/Vertex_Fragment_Shader.md))
+- [Vertex/Fragment(Pixel)](./Advanced/Vertex_Fragment_Shader.md)
 - [Texture Compression](./Advanced/Texture_Compression.md)
 - [Z Buffer](./Advanced/Z_Buffer.md)
