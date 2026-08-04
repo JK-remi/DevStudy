@@ -1,71 +1,95 @@
-# Vertex Shader & Fragment Shader
+# Vertex Shader vs Fragment Shader
 
 ## Shader란?
 
-GPU에서 실행되는 프로그램. 오브젝트를 어떻게 그릴지 결정한다.
+GPU에서 실행되는 프로그램이다.
+
+Rendering 과정에서 Vertex와 Pixel을 처리한다.
 
 ---
 
 # Vertex Shader
 
-## 역할
-
-Vertex 위치 계산
-
-즉
+## 입력
 
 ```text
 Vertex
 
-↓
+Position
 
-어디에 그릴 것인가?
+Normal
+
+UV
 ```
 
----
+## 역할
 
-## 대표 예시
+Vertex 위치 계산
 
-- 캐릭터 흔들림
+```text
+Local
+
+↓
+
+World
+
+↓
+
+Camera
+
+↓
+
+Projection
+```
+
+### 예시
+
+- Water 흔들림
 - Grass 흔들림
-- 물결
-- 깃발
+- Character 흔들림
 
 ---
 
 # Fragment(Pixel) Shader
 
-## 역할
-
-Pixel 색 계산
-
-즉
+## 입력
 
 ```text
 Pixel
 
-↓
+Texture
 
-무슨 색으로 그릴 것인가?
+Lighting
+
+Shadow
 ```
 
----
+## 역할
 
-## 대표 예시
+Pixel 색 계산
 
-- Lighting
-- Shadow
+### 예시
+
+- Diffuse
+- Specular
 - Reflection
 - Rim Light
 - Emission
-- Transparency
 
 ---
 
-# 처리 순서
+# 실행 순서
 
 ```text
+Mesh
+
+↓
+
 Vertex Shader
+
+↓
+
+Triangle
 
 ↓
 
@@ -84,24 +108,31 @@ Frame Buffer
 
 # 차이
 
-| Vertex | Fragment |
-|---------|----------|
-| 위치 계산 | 색 계산 |
-| Vertex 개수만큼 실행 | Pixel 개수만큼 실행 |
-| 상대적으로 가벼움 | 상대적으로 무거움 |
+| 항목 | Vertex | Fragment |
+|------|---------|----------|
+| 대상 | Vertex | Pixel |
+| 역할 | 위치 계산 | 색 계산 |
+| 실행 횟수 | Vertex 수 | Pixel 수 |
+| 연산량 | 적음 | 많음 |
 
 ---
 
-## 면접 포인트
+## 왜 Fragment가 더 무거운가?
 
-Vertex
+예)
 
-=
+```text
+Vertex 100개
 
-위치
+↓
 
-Fragment
+Triangle 200개
 
-=
+↓
 
-색
+Pixel 2,000,000개
+```
+
+Fragment Shader는 Pixel마다 실행된다.
+
+그래서 Lighting, Reflection, Shadow 계산이 훨씬 무겁다.
