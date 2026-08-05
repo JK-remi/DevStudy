@@ -47,7 +47,7 @@ Display
 
 ## 1. Model
 
-게임에서 사용하는 3D 모델 데이터이다.
+게임에서 사용하는 3D 모델 데이터이다.  
 Model은 Vertex / Triangle / Normal / UV 등의 정보를 가지고 있다.
 
 예)
@@ -98,8 +98,8 @@ Vertex Shader (World Matrix 적용)
 
 ## 4. View (Camera) Space
 
-카메라를 기준으로 좌표를 변환한다.
-즉, "카메라에서 얼마나 떨어져 있는가"를 계산하는 단계이다.
+카메라를 기준으로 좌표를 변환한다.  
+즉, "카메라에서 얼마나 떨어져 있는가"를 계산하는 단계이다.  
 카메라가 움직이면 View Space도 함께 변경된다.
 
 ```text
@@ -110,8 +110,8 @@ Vertex Shader (View Matrix 적용)
 
 ## 5. Projection
 
-3D 좌표를 2D 화면으로 투영한다.
-Perspective Camera의 경우 원근감이 적용된다.
+3D 좌표를 2D 화면으로 투영한다.  
+Perspective Camera의 경우 원근감이 적용된다.  
 
 예)
 
@@ -173,8 +173,7 @@ Fragment Shader 시작
 
 ## 8. Fragment (Pixel)
 
-생성된 Pixel마다 최종 색상을 계산한다.
-
+생성된 Pixel마다 최종 색상을 계산한다.  
 여기서
 
 - Texture
@@ -183,8 +182,7 @@ Fragment Shader 시작
 - Reflection
 - Rim Light
 
-등이 계산된다.
-
+등이 계산된다.  
 즉, "무슨 색으로 그릴 것인가" 를 결정하는 단계이다.
 
 ```text
@@ -195,8 +193,7 @@ Fragment(Pixel) Shader
 
 ## 9. Frame Buffer
 
-최종 계산된 Pixel 정보를 저장한다.
-
+최종 계산된 Pixel 정보를 저장한다.  
 Frame Buffer가 완성되면 모니터로 출력할 준비가 끝난 상태이다.
 
 ```text
