@@ -2,9 +2,7 @@
 
 ## 정의
 
-Texture Compression은
-
-**Texture를 압축하여 VRAM 사용량을 줄이는 기법**이다.
+Texture Compression은 **Texture를 압축하여 VRAM 사용량을 줄이는 기법**이다.
 
 ---
 
@@ -81,9 +79,7 @@ ETC2
 DXT
 ```
 
-설정 가능
-
-플랫폼에 따라 자동 변경 가능
+설정 가능. 플랫폼에 따라 자동 변경 가능
 
 ---
 
