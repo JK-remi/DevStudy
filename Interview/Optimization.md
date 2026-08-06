@@ -224,6 +224,7 @@ Memory Leak은 더 이상 사용하지 않는 객체가 메모리에서 해제�
 - 공유 데이터
 - 데이터 관리
 - 메모리 절약
+- [Scriptable Object](./Advanced/ScriptableObject.md)
 
 ### 답변
 
@@ -370,6 +371,8 @@ Unity Profiler를 통해 Draw Call, SetPass Call, Polygon 수를 확인한다. �
 
 ## Q8. Oracle War 프로젝트에서 Rendering 최적화를 적용한다면 어떻게 구현하시겠습니까?
 
+- [Texture Compression](./Advanced/Texture_Compression.md)
+
 ### 답변
 
 Texture Atlas를 사용하여 Batching이 잘 이루어지도록 구성하고, Texture Compression을 적용하여 VRAM 사용량을 줄인다. 또한 정적인 오브젝트에는 Baked Lighting을 적용하고, Frustum Culling과 Occlusion Culling을 사용하여 불필요한 Rendering을 줄인다.
@@ -378,5 +381,7 @@ Texture Atlas를 사용하여 Batching이 잘 이루어지도록 구성하고, T
 
 # Related Concepts
 
+- [Scriptable Object](./Advanced/ScriptableObject.md)
 - [Addressables, AssetBundle](./Advanced/Addressables_AssetBundle.md)
 - [GPU Instancing Adavanced](./Advanced/GPU_Instancing.md)
+- [Texture Compression](./Advanced/Texture_Compression.md)
