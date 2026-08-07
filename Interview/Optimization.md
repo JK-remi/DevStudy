@@ -111,6 +111,9 @@ CPU Bound는 CPU가 프레임 생성을 따라가지 못하는 상황이며, GC,
 
 더 이상 참조되지 않는 객체를 탐지하여 메모리를 해제하는 과정이다. GC가 실행되는 동안 CPU가 일시적으로 멈출 수 있으므로 Frame Drop의 원인이 될 수 있다. 일반적으로 메모리 부족이나 일정 조건에서 자동으로 실행되며, Loading 화면과 같이 사용자 입력이 없는 구간에서는 개발자가 직접 호출하기도 한다.
 
+### 꼬리질문
+- GC Alloc이 특정 프레임에서 급증하면 어떻게 찾는가?
+  - Alloc = 할당
 ---
 
 ## Q3. Boxing / Unboxing이란 무엇인가요?
@@ -297,6 +300,9 @@ AssetBundle은 개발자가 직접 생성하고 로드 및 의존성을 관리�
 
 Draw Call을 줄이는 대표적인 방법은 Static/Dynamic Batching, Texture Atlas, GPU Instancing, Frustum Culling, Occlusion Culling 등을 사용하는 것이다.
 
+### 꼬리 질문
+- 하나의 Material을 여러 오브젝트가 공유하고 있더라도 Draw Call이 반드시 하나로 합쳐지는 것은 아는데, 어떤 조건들이 추가로 충족되어야 하나요? 
+
 ---
 
 ## Q2. Static Batching과 Dynamic Batching의 차이를 설명해주세요.
@@ -304,6 +310,9 @@ Draw Call을 줄이는 대표적인 방법은 Static/Dynamic Batching, Texture A
 ### 답변
 
 Static Batching은 움직이지 않는 오브젝트를 미리 묶어 Draw Call을 줄이는 방식이다. Dynamic Batching은 움직이는 오브젝트를 런타임에서 묶는 방식이며, Vertex 수 등의 제한이 있다.
+
+### 꼬리 질문
+- Texture Atlas를 적용했는데도 Batching이 기대만큼 발생하지 않는다면 어떤 부분을 확인하시겠습니까?
 
 ---
 
@@ -316,6 +325,9 @@ Static Batching은 움직이지 않는 오브젝트를 미리 묶어 Draw Call�
 ### 답변
 
 동일한 Mesh와 Material을 사용하는 여러 오브젝트를 GPU에서 한 번의 Draw Call로 처리하는 기술이다. CPU가 GPU에 전달하는 Rendering 명령을 줄여 성능을 향상시킨다.
+
+### 꼬리 질문
+- GPU Instancing을 사용했는데 성능 향상이 거의 없다면 어떤 원인을 의심하시겠습니까?
 
 ---
 
