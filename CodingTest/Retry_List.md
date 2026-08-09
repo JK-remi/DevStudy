@@ -6,4 +6,4 @@
 # DP
 - [**N으로 표현**](https://school.programmers.co.kr/learn/courses/30/lessons/42895#): [풀이](./DP/[프로그래머스]%20N으로%20표현.md)
 - [**등굣길**](https://school.programmers.co.kr/learn/courses/30/lessons/42898): [풀이](./DP/[프로그래머스]%20등굣길.md)
-- [**사칙연산**](https://school.programmers.co.kr/learn/courses/30/lessons/1843): [풀이](./DP/[프로그래머스]%사칙연산.md)
+- [**사칙연산**](https://school.programmers.co.kr/learn/courses/30/lessons/1843): [풀이](./DP/[프로그래머스]%20사칙연산.md)
