@@ -10,4 +10,4 @@
 - [**도둑질**](https://school.programmers.co.kr/learn/courses/30/lessons/42897): [풀이](./DP/[프로그래머스]%20도둑질.md)
 
 # 이분 탐색
-- [**입국심사**](https://school.programmers.co.kr/learn/courses/30/lessons/43238): [풀이](./이분탐/[프로그래머스]%20입국심사.md)
+- [**입국심사**](https://school.programmers.co.kr/learn/courses/30/lessons/43238): [풀이](./이분탐색/[프로그래머스]%20입국심사.md)
