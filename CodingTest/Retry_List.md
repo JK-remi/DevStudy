@@ -11,3 +11,4 @@
 
 # 이분 탐색
 - [**입국심사**](https://school.programmers.co.kr/learn/courses/30/lessons/43238): [풀이](./이분탐색/[프로그래머스]%20입국심사.md)
+- [**징검다리**](https://school.programmers.co.kr/learn/courses/30/lessons/43236): [풀이](./이분탐색/[프로그래머스]%20징검다리.md)
