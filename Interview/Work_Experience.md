@@ -1,33 +1,33 @@
 # Chapter 15. 경력 기술서
 - 목표
- - Animation Sequence Editor
- - Hex Map Editor
- - AI 개발 경험
- - Animation & 최적화
- - UI / UX
- - 서버 연동
- - Auto Play AI
- - 공통 검증 질문 (왜? 구조/기술? 구현?...)
+  - Animation Sequence Editor
+  - Hex Map Editor
+  - AI 개발 경험
+  - Animation & 최적화
+  - UI / UX
+  - 서버 연동
+  - Auto Play AI
+  - 공통 검증 질문 (왜? 구조/기술? 구현?...)
 
 ## 전투 시스템
 - Q1. Hit Reaction 시스템을 어떻게 구현했나요? 
- - Sequence Event로 AttackData가 포함된 Collider 소환(Projectile 포함). Hit됐을 때 AttackData에 설정된 direction에 따라 hit_r or hit_l 플레이
- - 수정안
-  - Animation Sequence Event를 통해 AttackData가 포함된 Collider를소환하고, Projectile도 같은 방식으로 처리했습니다. 이후 Collider에 피격되면 AttackData에 설정된 공격 방향 정보를 확인해서 Hit_R, Hit_L 같은 방향별 피격애니메이션을 재생하도록 구현했습니다.   
+  - Sequence Event로 AttackData가 포함된 Collider 소환(Projectile 포함). Hit됐을 때 AttackData에 설정된 direction에 따라 hit_r or hit_l 플레이
+  - 수정안
+    - Animation Sequence Event를 통해 AttackData가 포함된 Collider를소환하고, Projectile도 같은 방식으로 처리했습니다. 이후 Collider에 피격되면 AttackData에 설정된 공격 방향 정보를 확인해서 Hit_R, Hit_L 같은 방향별 피격애니메이션을 재생하도록 구현했습니다.   
 
 - Q2. Grab 시스템에서는 공격자와 피격자의 위치를 어떻게 맞췄나요? 
- - Grab 클래스에 Grab Bone 지정(공격 / 피격). 공격자의 Bone 위치와 피격자의 Bone 위치를 통해 보간 (Late Update)
- - 수정안
-  - Grab 클래스에 공격자와 피격자의 Grab Bone을 각각 지정하고, 두 Bone의 위치를 기준으로 캐릭터의 위치를 보간했습니다. 이 보정은 LateUpdate에서 처리해서 애니메이션에따른 Bone 위치를 반영하면서 공격자와 피격자의 위치가 자연스럽게 맞도록 구현했습니다. 
+  - Grab 클래스에 Grab Bone 지정(공격 / 피격). 공격자의 Bone 위치와 피격자의 Bone 위치를 통해 보간 (Late Update)
+  - 수정안
+    - Grab 클래스에 공격자와 피격자의 Grab Bone을 각각 지정하고, 두 Bone의 위치를 기준으로 캐릭터의 위치를 보간했습니다. 이 보정은 LateUpdate에서 처리해서 애니메이션에따른 Bone 위치를 반영하면서 공격자와 피격자의 위치가 자연스럽게 맞도록 구현했습니다. 
 
 - Q3. Airborne 시스템은 어떤 방식으로 구현했나요? 
- - 피격자 knockdown animation. (누워 있는 거 / 일어 나는 거 분리 중 눔는 거) 플레이. rigidbody 사용 보다는 내부 Fixed Update를 통해 힘을 주고, 중력이 있다는 가정하에 높이 계산 처리. 그 상태에서 한 번 더 hit된 경우 Airbone 다시 동작(단, 위로 쳐 올리는 힘은 줄어듦). 바닥에 떨어진 경우 일정 시간 지난 후 일어나는 animation play하고, 정상 동작.(knockdown 그대로 쓴 이유는 리소스 최적화) 
- - 수정안
-  - 피격자가 공중에 뜨는 상황에서는 Knockdown 애니메이션을 활용해 누워 있는 상태와 일어나느 상태를 처리했습니다.
-  - 물리적인 Rigidbody를 직접 사용하는대신, 내부 FixedUpdate에서 힘을 적용하는 방식으로 이동을 계산했습니다. 중력이 적용된다고 가정하고 현재 높이를 계산해서 피격자의 상승과 하강을 처리했습니다. 
-  - 공중에서 다시 피격되는 경우에는 Airborne을 다시 적용하되, 반복해서 너무 높이 튀는 것을 방지하기 위해 두 번째 피격부터는 위로 올리는 힘을 줄였습니다.
-  - 바닥에 떨어진 이후에는 일정 시간이지나면 일어나는 애니메이션을 재생하고 정상 상태로 복귀하도록 했습니다.
-  - 별도의 Airborne 전용 애니메이션 리소스를 추가하지 않고, 기존 Knckdown 애니메이션을 활용한 것은 리소스 추가를 줄이기 위한 판단이었습니다.   
+  - 피격자 knockdown animation. (누워 있는 거 / 일어 나는 거 분리 중 눔는 거) 플레이. rigidbody 사용 보다는 내부 Fixed Update를 통해 힘을 주고, 중력이 있다는 가정하에 높이 계산 처리. 그 상태에서 한 번 더 hit된 경우 Airbone 다시 동작(단, 위로 쳐 올리는 힘은 줄어듦). 바닥에 떨어진 경우 일정 시간 지난 후 일어나는 animation play하고, 정상 동작.(knockdown 그대로 쓴 이유는 리소스 최적화) 
+  - 수정안
+    - 피격자가 공중에 뜨는 상황에서는 Knockdown 애니메이션을 활용해 누워 있는 상태와 일어나느 상태를 처리했습니다.
+    - 물리적인 Rigidbody를 직접 사용하는대신, 내부 FixedUpdate에서 힘을 적용하는 방식으로 이동을 계산했습니다. 중력이 적용된다고 가정하고 현재 높이를 계산해서 피격자의 상승과 하강을 처리했습니다. 
+    - 공중에서 다시 피격되는 경우에는 Airborne을 다시 적용하되, 반복해서 너무 높이 튀는 것을 방지하기 위해 두 번째 피격부터는 위로 올리는 힘을 줄였습니다.
+    - 바닥에 떨어진 이후에는 일정 시간이지나면 일어나는 애니메이션을 재생하고 정상 상태로 복귀하도록 했습니다.
+    - 별도의 Airborne 전용 애니메이션 리소스를 추가하지 않고, 기존 Knckdown 애니메이션을 활용한 것은 리소스 추가를 줄이기 위한 판단이었습니다.   
 
 Q4. Combo / Random Attack 시스템에서는 여러 공격 패턴을 어떻게 처리했나요?
 일반 공격 시 몬스터가 획일적으로 공격하는 거 같다는 기획 의견에 의해 작업. Attack에 여러 AttackData를 넣고 next attack이 있는 경우 combo로 판단해서 다음 state도 attack이라면 next attack 실행. 그 외에는 attack list에 있는 것 중 random으로 골라서 attack. attack data가 달라지기 보다는 data는 그대로이고, 그에 해당하는 애니메이션이 여러가지인 상황. 
