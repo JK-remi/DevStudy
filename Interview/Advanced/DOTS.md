@@ -26,6 +26,12 @@ DOTS는 데이터를 중심(Data-Oriented)으로 관리하여 Cache 효율을 �
 
 ## ECS
 
+### 정의
+**Component**를 **데이터** 중심으로 구성하고 **System**이 동일한 Component를 가진 Entity들을 **일괄 처리함**으로써 
+**메모리 접근 효율**과 **캐시 효율**을 높이고, 작업을 **병렬화**하기 유리하다.
+
+---
+
 **기존**
 
 GameObject  
