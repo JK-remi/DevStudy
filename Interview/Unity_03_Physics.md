@@ -331,6 +331,17 @@ Update는 프레임마다 호출되고 Physics는 FixedUpdate마다 계산됩니
 Interpolation은 Physics 업데이트 사이의 위치를 보간하여 화면에서 더 부드럽게 보이도록 하는 기능입니다.  
 Physics 계산 횟수를 늘리는 것이 아니라 렌더링 시 움직임을 자연스럽게 보이게 합니다.  
 
+### 예상 꼬리 질문
+- Interpolate와 Extrapolate의 차이는?
+  - Interpolate
+    - 이전에 계산된 Physics 상태 사이를 보간
+    - 부드러운 움직임
+    - 약간의 지연 발생 가능
+  - Extrapolate
+    - 현재 상태와 속도 등을 기반으로 다음 상태를 예측
+    - 지연을 줄일 수 있음
+    - 실제 Physics 결과와 차이가 발생할 수 있음
+
 ---
 
 ## Q28. Continuous Collision Detection(CCD)은 언제 사용하는가?
