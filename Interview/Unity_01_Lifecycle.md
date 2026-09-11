@@ -255,3 +255,23 @@ Animation Sequence Editor 자체는 Unity Editor에서 동작하는 인하우스
 - [Dependency Injection](Advanced/DI.md)
 - [NavMesh 최적화](Advanced/NavMesh.md)
 - [Memory & GC](Advanced/Memory_Optimization.md)
+
+---
+
+# 번외
+
+## Coroutine vs async/await
+
+- Task
+- 비동기
+
+### 답변
+
+Coroutine은 Unity에서 제공하는 기능으로, `yield return`을 사용하여
+여러 프레임에 걸쳐 로직을 실행하거나 일정 시간 대기 후 다음 로직을 실행할 수 있습니다.
+
+async/await은 C#에서 제공하는 비동기 프로그래밍 방식으로,
+Task 기반의 비동기 작업이 완료된 후 이어서 로직을 실행할 때 사용합니다.
+
+Coroutine은 Unity의 프레임 기반 실행 제어에 적합하고,
+async/await은 네트워크나 파일 I/O와 같은 비동기 작업에 적합합니다.
