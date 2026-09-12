@@ -459,3 +459,16 @@ Oracle War 프로젝트에서는 AIBase 클래스에 FSM, HP, MP 등의 공통 �
 - [Composition](Advanced/Composition.md)
 - [Dynamic Binding](Advanced/Dynamic_Binding.md)
 
+---
+
+# 번외
+
+## ref / out / in
+
+### 답변
+
+`ref`, `out`, `in`은 메서드 매개변수에 사용하는 키워드입니다.
+
+- `ref` → 호출 전 초기화 필요 / 읽기 + 수정 가능
+- `out` → 호출 전 초기화 불필요 / 메서드에서 할당 필수
+- `in` → 호출 전 초기화 필요 / 읽기 전용
