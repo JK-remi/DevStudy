@@ -3,6 +3,7 @@
 - [**섬 연결하기**](https://school.programmers.co.kr/learn/courses/30/lessons/42861): [풀이](./그리디/[프로그래머스]%20섬%20연결하기.md)
 - [**단속카메라**](https://school.programmers.co.kr/learn/courses/30/lessons/42884#): [풀이](./그리디/[프로그래머스]%20단속카메라.md)
 - [**연속된 부분 수열의 합**](https://school.programmers.co.kr/learn/courses/30/lessons/178870): [풀이](./그리디/[프로그래머스]%20연속된%20부분%20수열의%20합.md)
+- [**큰 수 만들기**](https://school.programmers.co.kr/learn/courses/30/lessons/42883): [풀이](./그리디/[프로그래머스]%20큰%20수%20만들기.md)
 
 # DP
 - [**N으로 표현**](https://school.programmers.co.kr/learn/courses/30/lessons/42895#): [풀이](./DP/[프로그래머스]%20N으로%20표현.md)
