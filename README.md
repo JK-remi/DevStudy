@@ -13,59 +13,89 @@
 
 # 📂 Directory
 
-## 🎮 Interview
-
-### Unity
-
-* 📄 [Unity Lifecycle](Interview/Unity_Lifecycle.md)
-* 📄 [Unity Architecture](Interview/Unity_Architecture.md)
-* 📄 [Unity Animation](Interview/Unity_Animation.md)
-* 📄 [Unity Physics](Interview/Unity_Physics.md)
+<details>
+<summary><h2>🎮 Interview</h2></summary>
 
 ### C#
 
-* 📌 OOP
-* 📌 Memory
-* 📌 Generic / Collection
-* 📌 Delegate / Event
-* 📌 Parameter (`ref / out / in`)
-* 📌 Interface / Abstract
-* 📌 Virtual / Override
+* 📄 [C# OOP](Interview/01_Csharp_01_OOP.md)
+* 📄 [C# Memory](Interview/01_Csharp_02_Memory.md)
+* 📄 [C# Generic / Collection](Interview/01_Csharp_03_Generic_Collection.md)
+* 📄 [C# Delegate / Event](Interview/01_Csharp_04_Delegate_Event.md)
 
-### Advanced
+### Unity
 
-* 📄 [Dependency Injection](Interview/Advanced/DI.md)
-* 📄 [DOTS](Interview/Advanced/DOTS.md)
-* 📄 [DTO](Interview/Advanced/DTO.md)
-* 📄 [Interface](Interview/Advanced/Interface.md)
-* 📄 [Memory](Interview/Advanced/Memory.md)
-* 📄 [NavMesh](Interview/Advanced/NavMesh.md)
-* 📄 [Required Component](Interview/Advanced/Required_Component.md)
-* 📄 [ScriptableObject](Interview/Advanced/ScriptableObject.md)
-* 📄 [Service Locator](Interview/Advanced/Service_Locator.md)
-* 📄 [Singleton](Interview/Advanced/Singleton.md)
-* 📄 [Thread](Interview/Advanced/Thread.md)
+* 📄 [Unity Lifecycle](Interview/02_Unity_01_Lifecycle.md)
+* 📄 [Unity Architecture](Interview/02_Unity_02_Architecture.md)
+* 📄 [Unity Physics](Interview/02_Unity_03_Physics.md)
+* 📄 [Unity Animation](Interview/02_Unity_04_Animation.md)
+* 📄 [Unity UI](Interview/02_Unity_05_UI.md)
 
-### Career
+### Design Pattern
 
-* 📌 Combat System
-* 📌 Game AI
-* 📌 Animation Sequence Editor
-* 📌 Hex Map Editor
-* 📌 Optimization
-* 📌 UI / UX
-* 📌 Server Integration
-* 📌 Technical Troubleshooting
+* 📄 [Design Pattern - Basic](Interview/03_DesignPattern_01_Basic.md)
+* 📄 [Design Pattern - Creational](Interview/03_DesignPattern_02_Creational.md)
+* 📄 [Design Pattern - Behavior](Interview/03_DesignPattern_03_Behavior.md)
+
+### Game AI
+
+* 📄 [Game AI - Decision](Interview/04_GameAI_01_Decision.md)
+* 📄 [Game AI - Path Finding](Interview/04_GameAI_02_PathFinding.md)
+
+### Rendering
+
+* 📄 [Rendering](Interview/05_Rendering.md)
+
+### Optimization
+
+* 📄 [Optimization](Interview/06_Optimization.md)
+
+### Network
+
+* 📄 [Network](Interview/07_Network.md)
+
+### Work Experience
+
+* 📄 [Work Experience](Interview/08_Work_Experience.md)
 
 ### AI Portfolio
 
-* 📌 AR Animal Recognition
-* 📌 LLM-NPC-RPG
-* 📌 AI Virtual Idol
+* 📄 [AI Portfolio](Interview/09_AI_Portfolio.md)
+
+### Advanced
+
+* 📄 [Addressables / AssetBundle](Interview/Advanced/Addressables_AssetBundle.md)
+* 📄 [Composition](Interview/Advanced/Composition.md)
+* 📄 [Dependency Injection](Interview/Advanced/DI.md)
+* 📄 [DOTS](Interview/Advanced/DOTS.md)
+* 📄 [DTO](Interview/Advanced/DTO.md)
+* 📄 [Dynamic Binding](Interview/Advanced/Dynamic_Binding.md)
+* 📄 [GPU Instancing](Interview/Advanced/GPU_Instancing.md)
+* 📄 [Game AI Decision Reference](Interview/Advanced/GameAI_Decision_Ref.md)
+* 📄 [Interface](Interview/Advanced/Interface.md)
+* 📄 [Interface / Observer GoF](Interview/Advanced/Interface_Observer_GoF.md)
+* 📄 [Lambda](Interview/Advanced/Lambda.md)
+* 📄 [Lazy / Eager Initialization](Interview/Advanced/Lazy_Eager_Init.md)
+* 📄 [Memory Optimization](Interview/Advanced/Memory_Optimization.md)
+* 📄 [Memory Structure](Interview/Advanced/Memory_Structure.md)
+* 📄 [NavMesh](Interview/Advanced/NavMesh.md)
+* 📄 [Rendering Pipeline](Interview/Advanced/Rendering_Pipeline.md)
+* 📄 [Required Component](Interview/Advanced/Required_Component.md)
+* 📄 [SOLID](Interview/Advanced/SOLID.md)
+* 📄 [ScriptableObject](Interview/Advanced/ScriptableObject.md)
+* 📄 [Service Locator](Interview/Advanced/Service_Locator.md)
+* 📄 [Singleton](Interview/Advanced/Singleton.md)
+* 📄 [Texture Compression](Interview/Advanced/Texture_Compression.md)
+* 📄 [Thread](Interview/Advanced/Thread.md)
+* 📄 [Vertex / Fragment Shader](Interview/Advanced/Vertex_Fragment_Shader.md)
+* 📄 [Z-Buffer](Interview/Advanced/Z_Buffer.md)
+
+</details>
 
 ---
 
-## 💻 Coding Test
+<details>
+<summary><h2>💻 Coding Test</h2></summary>
 
 ### Programmers
 
@@ -163,6 +193,7 @@
 - 📄 [PQ Comparator](CodingTest/알고리즘/PQ_Comparator.md)
 - 📄 [Prim / Kruskal](CodingTest/알고리즘/Prim_Kruskal.md)
 - 📄 [최단경로 알고리즘](CodingTest/알고리즘/최단경로_알고리즘.md)
+</details>
 
 ---
 
