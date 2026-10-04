@@ -16,54 +16,63 @@
 <details>
 <summary><h2>🎮 Interview</h2></summary>
 
-### C#
-
+<details>
+<summary><h3>C#</h3></summary>
 * 📄 [C# OOP](Interview/01_Csharp_01_OOP.md)
 * 📄 [C# Memory](Interview/01_Csharp_02_Memory.md)
 * 📄 [C# Generic / Collection](Interview/01_Csharp_03_Generic_Collection.md)
 * 📄 [C# Delegate / Event](Interview/01_Csharp_04_Delegate_Event.md)
+</details>
 
-### Unity
-
+<details>
+<summary><h3>Unity</h3></summary>
 * 📄 [Unity Lifecycle](Interview/02_Unity_01_Lifecycle.md)
 * 📄 [Unity Architecture](Interview/02_Unity_02_Architecture.md)
 * 📄 [Unity Physics](Interview/02_Unity_03_Physics.md)
 * 📄 [Unity Animation](Interview/02_Unity_04_Animation.md)
 * 📄 [Unity UI](Interview/02_Unity_05_UI.md)
+</details>
 
-### Design Pattern
-
+<details>
+<summary><h3>Design Pattern</h3></summary>
 * 📄 [Design Pattern - Basic](Interview/03_DesignPattern_01_Basic.md)
 * 📄 [Design Pattern - Creational](Interview/03_DesignPattern_02_Creational.md)
 * 📄 [Design Pattern - Behavior](Interview/03_DesignPattern_03_Behavior.md)
+</details>
 
-### Game AI
-
+<details>
+<summary><h3>Game AI</h3></summary>
 * 📄 [Game AI - Decision](Interview/04_GameAI_01_Decision.md)
 * 📄 [Game AI - Path Finding](Interview/04_GameAI_02_PathFinding.md)
+</details>
 
-### Rendering
-
+<details>
+<summary><h3>Rendering</h3></summary>
 * 📄 [Rendering](Interview/05_Rendering.md)
+</details>
 
-### Optimization
-
+<details>
+<summary><h3>Optimization</h3></summary>
 * 📄 [Optimization](Interview/06_Optimization.md)
+</details>
 
-### Network
-
+<details>
+<summary><h3>Network</h3></summary>
 * 📄 [Network](Interview/07_Network.md)
+</details>
 
-### Work Experience
-
+<details>
+<summary><h3>Work Experience</h3></summary>
 * 📄 [Work Experience](Interview/08_Work_Experience.md)
+</details>
 
-### AI Portfolio
-
+<details>
+<summary><h3>AI Portfolio</h3></summary>
 * 📄 [AI Portfolio](Interview/09_AI_Portfolio.md)
+</details>
 
-### Advanced
-
+<details>
+<summary><h3>Advanced</h3></summary>
 * 📄 [Addressables / AssetBundle](Interview/Advanced/Addressables_AssetBundle.md)
 * 📄 [Composition](Interview/Advanced/Composition.md)
 * 📄 [Dependency Injection](Interview/Advanced/DI.md)
@@ -89,6 +98,7 @@
 * 📄 [Thread](Interview/Advanced/Thread.md)
 * 📄 [Vertex / Fragment Shader](Interview/Advanced/Vertex_Fragment_Shader.md)
 * 📄 [Z-Buffer](Interview/Advanced/Z_Buffer.md)
+</details>
 
 </details>
 
