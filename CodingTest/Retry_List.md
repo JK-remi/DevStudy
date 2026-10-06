@@ -17,3 +17,6 @@
 # 이분 탐색
 - [**입국심사**](https://school.programmers.co.kr/learn/courses/30/lessons/43238): [풀이](./이분탐색/[프로그래머스]%20입국심사.md)
 - [**징검다리**](https://school.programmers.co.kr/learn/courses/30/lessons/43236): [풀이](./이분탐색/[프로그래머스]%20징검다리.md)
+
+# 구현, 시뮬레이션
+- [**리프 노드 수 최대화**](https://school.programmers.co.kr/learn/courses/30/lessons/468372): [풀이](./구현_시뮬/[프로그래머스]%20리프%20노드%20수%20최대화.md)
