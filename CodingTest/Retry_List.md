@@ -15,6 +15,7 @@
 - [**도둑질**](https://school.programmers.co.kr/learn/courses/30/lessons/42897): [풀이](./DP/[프로그래머스]%20도둑질.md)
 - [**완전범죄**](https://school.programmers.co.kr/learn/courses/30/lessons/389480): [풀이](./DP/[프로그래머스]%20완전범죄.md)
 - [**가장 큰 정사각형 찾기**](https://school.programmers.co.kr/learn/courses/30/lessons/12905#): [풀이](./DP/[프로그래머스]%20가장%20큰%20정사각형%20찾기.md)
+- [**보행자 천국**](https://school.programmers.co.kr/learn/courses/30/lessons/1832): [풀이](./DP/[프로그래머스]%20보행자%20천국.md)
   - [Dynamic Programming](./알고리즘/DP.md)
 
 # 이분 탐색
