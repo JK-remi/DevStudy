@@ -1,6 +1,9 @@
 # 스택, 큐
 - [**선인장 숨기기**](https://school.programmers.co.kr/learn/courses/30/lessons/468379): [풀이](./스택_큐/[프로그래머스]%20선인장%20숨기기.md)
 
+# 완전 탐색
+- [**캠핑**](https://school.programmers.co.kr/learn/courses/30/lessons/1833): [풀이](./완전탐색/[프로그래머스]%20캠핑.md)
+
 # Greedy
 - [**조이 스틱**](https://school.programmers.co.kr/learn/courses/30/lessons/42860): [풀이](./그리디/[프로그래머스]%20조이스틱.md)
 - [**섬 연결하기**](https://school.programmers.co.kr/learn/courses/30/lessons/42861): [풀이](./그리디/[프로그래머스]%20섬%20연결하기.md)
