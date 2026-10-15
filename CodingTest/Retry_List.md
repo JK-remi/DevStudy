@@ -30,3 +30,5 @@
 - [**브라이언의 고민**](https://school.programmers.co.kr/learn/courses/30/lessons/1830#): [풀이](./구현_시뮬/[프로그래머스]%20브라이언의%20고민.md)
   - [Floyd Warshall](./알고리즘/Floyd_Warshall.md)
   - [2-SAT](./알고리즘/2_SAT.md)
+- [리틀 프렌즈 사천성](https://school.programmers.co.kr/learn/courses/30/lessons/1836): [풀이](./구현_시뮬/[프로그래머스]%20리틀%20프렌즈%20사천성.md)
+  
