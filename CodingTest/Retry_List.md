@@ -7,6 +7,7 @@
 |문제|풀이|참고|
 |--|-----|-----|
 |[**캠핑**](https://school.programmers.co.kr/learn/courses/30/lessons/1833)|[풀이](./완전탐색/[프로그래머스]%20캠핑.md)|
+|*[**몸짱 트레이너 라이언의 고민**](https://school.programmers.co.kr/learn/courses/30/lessons/1838)|[풀이](./완전탐색/[프로그래머스]%20몸짱%20트레이너%20라이언의%20고민.md)|
 
 # Greedy
 |문제|풀이|참고|
