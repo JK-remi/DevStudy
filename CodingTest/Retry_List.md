@@ -6,9 +6,9 @@
 # 완전 탐색
 |문제|풀이|참고|
 |--|-----|-----|
-|[**캠핑**](https://school.programmers.co.kr/learn/courses/30/lessons/1833)|[풀이](./완전탐색/[프로그래머스]%20캠핑.md)|
-|*[**몸짱 트레이너 라이언의 고민**](https://school.programmers.co.kr/learn/courses/30/lessons/1838)|[풀이](./완전탐색/[프로그래머스]%20몸짱%20트레이너%20라이언의%20고민.md)|
-|[가장 긴 팰린드롬](https://school.programmers.co.kr/learn/courses/30/lessons/12904)|[풀이](./완전탐색/[프로그래머스]%20가장%20긴%20팰린드롬.md)|
+|[**캠핑**](https://school.programmers.co.kr/learn/courses/30/lessons/1833)|[풀이](./완전탐색/[프로그래머스]%20캠핑.md)||
+|*[**몸짱 트레이너 라이언의 고민**](https://school.programmers.co.kr/learn/courses/30/lessons/1838)|[풀이](./완전탐색/[프로그래머스]%20몸짱%20트레이너%20라이언의%20고민.md)||
+|[가장 긴 팰린드롬](https://school.programmers.co.kr/learn/courses/30/lessons/12904)|[풀이](./완전탐색/[프로그래머스]%20가장%20긴%20팰린드롬.md)||
 
 # Greedy
 |문제|풀이|참고|
@@ -30,6 +30,7 @@
 |[**가장 큰 정사각형 찾기**](https://school.programmers.co.kr/learn/courses/30/lessons/12905#)|[풀이](./DP/[프로그래머스]%20가장%20큰%20정사각형%20찾기.md)||
 |[**보행자 천국**](https://school.programmers.co.kr/learn/courses/30/lessons/1832)|[풀이](./DP/[프로그래머스]%20보행자%20천국.md)||
 |[**GPS**](https://school.programmers.co.kr/learn/courses/30/lessons/1837)|[풀이](./DP/[프로그래머스]%20GPS.md)||
+|[거스름돈](https://school.programmers.co.kr/learn/courses/30/lessons/12907)|[풀이](./완전탐색/[프로그래머스]%20거스름돈.md)|[DP-Knapsack](./알고리즘/DP.md#5-대표-유형과-상태-설계-패턴)|
 
 # 이분 탐색
 |문제|풀이|참고|
