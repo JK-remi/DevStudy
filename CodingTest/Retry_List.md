@@ -37,6 +37,7 @@
 |--|-----|-----|
 |[**입국심사**](https://school.programmers.co.kr/learn/courses/30/lessons/43238)|[풀이](./이분탐색/[프로그래머스]%20입국심사.md)||
 |[**징검다리**](https://school.programmers.co.kr/learn/courses/30/lessons/43236)|[풀이](./이분탐색/[프로그래머스]%20징검다리.md)||
+|[**선입 선출 스케줄링**](https://school.programmers.co.kr/learn/courses/30/lessons/12920)|[풀이](./이분탐색/[프로그래머스]%20선입%20선출%20스케줄링.md)||
 
 # 구현, 시뮬레이션
 |문제|풀이|참고|
