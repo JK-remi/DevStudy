@@ -33,6 +33,7 @@
 |[**보행자 천국**](https://school.programmers.co.kr/learn/courses/30/lessons/1832)|[풀이](./DP/[프로그래머스]%20보행자%20천국.md)||
 |[**GPS**](https://school.programmers.co.kr/learn/courses/30/lessons/1837)|[풀이](./DP/[프로그래머스]%20GPS.md)||
 |[거스름돈](https://school.programmers.co.kr/learn/courses/30/lessons/12907)|[풀이](./완전탐색/[프로그래머스]%20거스름돈.md)|[DP-Knapsack](./알고리즘/DP.md#5-대표-유형과-상태-설계-패턴)|
+|[**최적의 행렬 곱셈**](https://school.programmers.co.kr/learn/courses/30/lessons/12942)|[풀이](./DP/[프로그래머스]%20최적의%20행렬%20곱셈.md)||
 
 # 이분 탐색
 |문제|풀이|참고|
