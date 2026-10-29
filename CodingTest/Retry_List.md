@@ -20,6 +20,7 @@
 |[**큰 수 만들기**](https://school.programmers.co.kr/learn/courses/30/lessons/42883)|[풀이](./그리디/[프로그래머스]%20큰%20수%20만들기.md)||
 |[**야근 지수**](https://school.programmers.co.kr/learn/courses/30/lessons/12927)|[풀이](./그리디/[프로그래머스]%20야근%20지수.md)||
 |[**최고의 집합**](https://school.programmers.co.kr/learn/courses/30/lessons/12938)|[풀이](./그리디/[프로그래머스]%20최고의%20집합.md)||
+|[기지국 설치](https://school.programmers.co.kr/learn/courses/30/lessons/12979)|[풀이](./그리디/[프로그래머스]%20기지국%20설치.md)||
 
 # DP
 |문제|풀이|참고|
