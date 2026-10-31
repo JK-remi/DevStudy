@@ -117,129 +117,146 @@
 <details>
 <summary><h2>💻 Coding Test</h2></summary>
 
-* 📌 [다시 풀어볼 문제 (Retry List)](CodingTest/Retry_List.md)
+<details>
+<summary><h3>DFS / BFS</h3></summary>
+  
+* 📄 [네트워크](CodingTest/DFS_BFS/[프로그래머스]%20네트워크.md)
+* 📄 [단어 변환](CodingTest/DFS_BFS/[프로그래머스]%20단어%20변환.md)
+* 📄 [리코쳇 로봇](CodingTest/DFS_BFS/[프로그래머스]%20리코쳇%20로봇.md)
+* 📄 [배달](CodingTest/DFS_BFS/[프로그래머스]%20배달.md)
+* 📄 [비밀 코드 해독](CodingTest/DFS_BFS/[프로그래머스]%20비밀%20코드%20해독.md)
+* 📄 [순위 검색](CodingTest/DFS_BFS/[프로그래머스]%20순위%20검색.md)
+* 📄 [아이템 줍기](CodingTest/DFS_BFS/[프로그래머스]%20아이템%20줍기.md)
+* 📄 [양궁대회](CodingTest/DFS_BFS/[프로그래머스]%20양궁대회.md)
+* 📄 [여행경로](CodingTest/DFS_BFS/[프로그래머스]%20여행경로.md)
+* 📄 [퍼즐 조각 채우기](CodingTest/DFS_BFS/[프로그래머스]%20퍼즐%20조각%20채우기.md)
+</details>
 
-### Programmers
+<details>
+<summary><h3>DP</h3></summary>
+  
+* 📄 [GPS](CodingTest/DP/[프로그래머스]%20GPS.md)
+* 📄 [N으로 표현](CodingTest/DP/[프로그래머스]%20N으로%20표현.md)
+* 📄 [가장 큰 정사각형 찾기](CodingTest/DP/[프로그래머스]%20가장%20큰%20정사각형%20찾기.md)
+* 📄 [거스름돈](CodingTest/DP/[프로그래머스]%20거스름돈.md)
+* 📄 [공원](CodingTest/DP/[프로그래머스]%20공원.md)
+* 📄 [도둑질](CodingTest/DP/[프로그래머스]%20도둑질.md)
+* 📄 [등굣길](CodingTest/DP/[프로그래머스]%20등굣길.md)
+* 📄 [보행자 천국](CodingTest/DP/[프로그래머스]%20보행자%20천국.md)
+* 📄 [사칙연산](CodingTest/DP/[프로그래머스]%20사칙연산.md)
+* 📄 [스티커 모으기(2)](CodingTest/DP/[프로그래머스]%20스티커%20모으기%282%29.md)
+* 📄 [완전범죄](CodingTest/DP/[프로그래머스]%20완전범죄.md)
+* 📄 [유사 칸토어 비트열](CodingTest/DP/[프로그래머스]%20유사%20칸토어%20비트열.md)
+* 📄 [최적의 행렬 곱셈](CodingTest/DP/[프로그래머스]%20최적의%20행렬%20곱셈.md)
+</details>
 
-#### DFS / BFS
+<details>
+<summary><h3>그리디</h3></summary>
+  
+* 📄 [기지국 설치](CodingTest/그리디/[프로그래머스]%20기지국%20설치.md)
+* 📄 [단속카메라](CodingTest/그리디/[프로그래머스]%20단속카메라.md)
+* 📄 [디펜스 게임](CodingTest/그리디/[프로그래머스]%20디펜스%20게임.md)
+* 📄 [마법의 엘리베이터](CodingTest/그리디/[프로그래머스]%20마법의%20엘리베이터.md)
+* 📄 [섬 연결하기](CodingTest/그리디/[프로그래머스]%20섬%20연결하기.md)
+* 📄 [야근 지수](CodingTest/그리디/[프로그래머스]%20야근%20지수.md)
+* 📄 [연속된 부분 수열의 합](CodingTest/그리디/[프로그래머스]%20연속된%20부분%20수열의%20합.md)
+* 📄 [조이스틱](CodingTest/그리디/[프로그래머스]%20조이스틱.md)
+* 📄 [최고의 집합](CodingTest/그리디/[프로그래머스]%20최고의%20집합.md)
+* 📄 [큰 수 만들기](CodingTest/그리디/[프로그래머스]%20큰%20수%20만들기.md)
+</details>
 
-- 📄 [[프로그래머스] 네트워크](CodingTest/DFS_BFS/[프로그래머스]%20네트워크.md)
-- 📄 [[프로그래머스] 단어 변환](CodingTest/DFS_BFS/[프로그래머스]%20단어%20변환.md)
-- 📄 [[프로그래머스] 리코쳇 로봇](CodingTest/DFS_BFS/[프로그래머스]%20리코쳇%20로봇.md)
-- 📄 [[프로그래머스] 배달](CodingTest/DFS_BFS/[프로그래머스]%20배달.md)
-- 📄 [[프로그래머스] 비밀 코드 해독](CodingTest/DFS_BFS/[프로그래머스]%20비밀%20코드%20해독.md)
-- 📄 [[프로그래머스] 순위 검색](CodingTest/DFS_BFS/[프로그래머스]%20순위%20검색.md)
-- 📄 [[프로그래머스] 아이템 줍기](CodingTest/DFS_BFS/[프로그래머스]%20아이템%20줍기.md)
-- 📄 [[프로그래머스] 양궁대회](CodingTest/DFS_BFS/[프로그래머스]%20양궁대회.md)
-- 📄 [[프로그래머스] 여행경로](CodingTest/DFS_BFS/[프로그래머스]%20여행경로.md)
-- 📄 [[프로그래머스] 퍼즐 조각 채우기](CodingTest/DFS_BFS/[프로그래머스]%20퍼즐%20조각%20채우기.md)
+<details>
+<summary><h3>구현 / 시뮬레이션</h3></summary>
+  
+* 📄 [당구 연습](CodingTest/구현_시뮬/[프로그래머스]%20당구%20연습.md)
+* 📄 [리틀 프렌즈 사천성](CodingTest/구현_시뮬/[프로그래머스]%20리틀%20프렌즈%20사천성.md)
+* 📄 [리프 노드 수 최대화](CodingTest/구현_시뮬/[프로그래머스]%20리프%20노드%20수%20최대화.md)
+* 📄 [브라이언의 고민](CodingTest/구현_시뮬/[프로그래머스]%20브라이언의%20고민.md)
+* 📄 [아날로그 시계](CodingTest/구현_시뮬/[프로그래머스]%20아날로그%20시계.md)
+* 📄 [추석 트래픽](CodingTest/구현_시뮬/[프로그래머스]%20추석%20트래픽.md)
+* 📄 [택배 상자 꺼내기](CodingTest/구현_시뮬/[프로그래머스]%20택배%20상자%20꺼내기.md)
+</details>
 
-#### DP
+<details>
+<summary><h3>스택 / 큐</h3></summary>
+  
+* 📄 [다리를 지나는 트럭](CodingTest/스택_큐/[프로그래머스]%20다리를%20지나는%20트럭.md)
+* 📄 [선인장 숨기기](CodingTest/스택_큐/[프로그래머스]%20선인장%20숨기기.md)
+* 📄 [주식가격](CodingTest/스택_큐/[프로그래머스]%20주식가격.md)
+* 📄 [충돌위험 찾기](CodingTest/스택_큐/[프로그래머스]%20충돌위험%20찾기.md)
+* 📄 [프로세스](CodingTest/스택_큐/[프로그래머스]%20프로세스.md)
+* 📄 [햄버거 만들기](CodingTest/스택_큐/[프로그래머스]%20햄버거%20만들기.md)
+</details>
 
-- 📄 [[프로그래머스] GPS](CodingTest/DP/[프로그래머스]%20GPS.md)
-- 📄 [[프로그래머스] N으로 표현](CodingTest/DP/[프로그래머스]%20N으로%20표현.md)
-- 📄 [[프로그래머스] 가장 큰 정사각형 찾기](CodingTest/DP/[프로그래머스]%20가장%20큰%20정사각형%20찾기.md)
-- 📄 [[프로그래머스] 거스름돈](CodingTest/DP/[프로그래머스]%20거스름돈.md)
-- 📄 [[프로그래머스] 공원](CodingTest/DP/[프로그래머스]%20공원.md)
-- 📄 [[프로그래머스] 도둑질](CodingTest/DP/[프로그래머스]%20도둑질.md)
-- 📄 [[프로그래머스] 등굣길](CodingTest/DP/[프로그래머스]%20등굣길.md)
-- 📄 [[프로그래머스] 보행자 천국](CodingTest/DP/[프로그래머스]%20보행자%20천국.md)
-- 📄 [[프로그래머스] 사칙연산](CodingTest/DP/[프로그래머스]%20사칙연산.md)
-- 📄 [[프로그래머스] 스티커 모으기(2)](CodingTest/DP/[프로그래머스]%20스티커%20모으기%282%29.md)
-- 📄 [[프로그래머스] 완전범죄](CodingTest/DP/[프로그래머스]%20완전범죄.md)
-- 📄 [[프로그래머스] 유사 칸토어 비트열](CodingTest/DP/[프로그래머스]%20유사%20칸토어%20비트열.md)
-- 📄 [[프로그래머스] 최적의 행렬 곱셈](CodingTest/DP/[프로그래머스]%20최적의%20행렬%20곱셈.md)
+<details>
+<summary><h3>해시</h3></summary>
+  
+* 📄 [베스트 앨범](CodingTest/해시/[프로그래머스]%20베스트%20앨범.md)
+* 📄 [완주하지 못 한 선수](CodingTest/해시/[프로그래머스]%20완주하지%20못%20한%20선수.md)
+* 📄 [의상](CodingTest/해시/[프로그래머스]%20의상.md)
+* 📄 [전화번호 목록](CodingTest/해시/[프로그래머스]%20전화번호%20목록.md)
+* 📄 [폰켓몬](CodingTest/해시/[프로그래머스]%20폰켓몬.md)
+</details>
 
-#### 그리디
+<details>
+<summary><h3>힙</h3></summary>
+  
+* 📄 [더 맵게](CodingTest/힙/[프로그래머스]%20더%20맵게.md)
+* 📄 [디스크 컨트롤러](CodingTest/힙/[프로그래머스]%20디스크%20컨트롤러.md)
+* 📄 [이중 우선 순위 큐](CodingTest/힙/[프로그래머스]%20이중%20우선%20순위%20%20큐.md)
+</details>
 
-- 📄 [[프로그래머스] 기지국 설치](CodingTest/그리디/[프로그래머스]%20기지국%20설치.md)
-- 📄 [[프로그래머스] 단속카메라](CodingTest/그리디/[프로그래머스]%20단속카메라.md)
-- 📄 [[프로그래머스] 디펜스 게임](CodingTest/그리디/[프로그래머스]%20디펜스%20게임.md)
-- 📄 [[프로그래머스] 마법의 엘리베이터](CodingTest/그리디/[프로그래머스]%20마법의%20엘리베이터.md)
-- 📄 [[프로그래머스] 섬 연결하기](CodingTest/그리디/[프로그래머스]%20섬%20연결하기.md)
-- 📄 [[프로그래머스] 야근 지수](CodingTest/그리디/[프로그래머스]%20야근%20지수.md)
-- 📄 [[프로그래머스] 연속된 부분 수열의 합](CodingTest/그리디/[프로그래머스]%20연속된%20부분%20수열의%20합.md)
-- 📄 [[프로그래머스] 조이스틱](CodingTest/그리디/[프로그래머스]%20조이스틱.md)
-- 📄 [[프로그래머스] 최고의 집합](CodingTest/그리디/[프로그래머스]%20최고의%20집합.md)
-- 📄 [[프로그래머스] 큰 수 만들기](CodingTest/그리디/[프로그래머스]%20큰%20수%20만들기.md)
+<details>
+<summary><h3>완전탐색</h3></summary>
+  
+* 📄 [N-Queen](CodingTest/완전탐색/[프로그래머스]%20N-Queen.md)
+* 📄 [가장 긴 팰린드롬](CodingTest/완전탐색/[프로그래머스]%20가장%20긴%20팰린드롬.md)
+* 📄 [노란불 신호등](CodingTest/완전탐색/[프로그래머스]%20노란불%20신호등.md)
+* 📄 [모음사전](CodingTest/완전탐색/[프로그래머스]%20모음사전.md)
+* 📄 [몸짱 트레이너 라이언의 고민](CodingTest/완전탐색/[프로그래머스]%20몸짱%20트레이너%20라이언의%20고민.md)
+* 📄 [바이러스 파이프](CodingTest/완전탐색/[프로그래머스]%20바이러스%20파이프.md)
+* 📄 [소수 찾기](CodingTest/완전탐색/[프로그래머스]%20소수%20찾기.md)
+* 📄 [전력망을 둘로 나누기](CodingTest/완전탐색/[프로그래머스]%20전력망을%20둘로%20나누기.md)
+* 📄 [캠핑](CodingTest/완전탐색/[프로그래머스]%20캠핑.md)
+* 📄 [후보키](CodingTest/완전탐색/[프로그래머스]%20후보키.md)
+</details>
 
-#### 구현 / 시뮬레이션
+<details>
+<summary><h3>이분탐색</h3></summary>
+  
+* 📄 [선입 선출 스케줄링](CodingTest/이분탐색/[프로그래머스]%20선입%20선출%20스케줄링.md)
+* 📄 [입국심사](CodingTest/이분탐색/[프로그래머스]%20입국심사.md)
+* 📄 [징검다리](CodingTest/이분탐색/[프로그래머스]%20징검다리.md)
+</details>
 
-- 📄 [[프로그래머스] 당구 연습](CodingTest/구현_시뮬/[프로그래머스]%20당구%20연습.md)
-- 📄 [[프로그래머스] 리틀 프렌즈 사천성](CodingTest/구현_시뮬/[프로그래머스]%20리틀%20프렌즈%20사천성.md)
-- 📄 [[프로그래머스] 리프 노드 수 최대화](CodingTest/구현_시뮬/[프로그래머스]%20리프%20노드%20수%20최대화.md)
-- 📄 [[프로그래머스] 브라이언의 고민](CodingTest/구현_시뮬/[프로그래머스]%20브라이언의%20고민.md)
-- 📄 [[프로그래머스] 아날로그 시계](CodingTest/구현_시뮬/[프로그래머스]%20아날로그%20시계.md)
-- 📄 [[프로그래머스] 추석 트래픽](CodingTest/구현_시뮬/[프로그래머스]%20추석%20트래픽.md)
-- 📄 [[프로그래머스] 택배 상자 꺼내기](CodingTest/구현_시뮬/[프로그래머스]%20택배%20상자%20꺼내기.md)
+<details>
+<summary><h3>정렬</h3></summary>
+  
+* 📄 [H-Index](CodingTest/정렬/[프로그래머스]%20H-Index.md)
+* 📄 [가장 큰 수](CodingTest/정렬/[프로그래머스]%20가장%20큰%20수.md)
+* 📄 [실패율](CodingTest/정렬/[프로그래머스]%20실패율.md)
+* 📄 [파일명 정렬](CodingTest/정렬/[프로그래머스]%20파일명%20정렬.md)
+</details>
 
-#### 그래프
+<details>
+<summary><h3>Algorithm</h3></summary>
+  
+* 📄 [2-SAT](CodingTest/알고리즘/2_SAT.md)
+* 📄 [BitMask](CodingTest/알고리즘/BitMask.md)
+* 📄 [DP](CodingTest/알고리즘/DP.md)
+* 📄 [Eulerian Path](CodingTest/알고리즘/Eulerian_Path.md)
+* 📄 [Floyd-Warshall](CodingTest/알고리즘/Floyd_Warshall.md)
+* 📄 [Lambda](CodingTest/알고리즘/Lambda.md)
+* 📄 [PQ Comparator](CodingTest/알고리즘/PQ_Comperator.md)
+* 📄 [Prim / Kruskal](CodingTest/알고리즘/Prim_Kruskal.md)
+* 📄 [최단경로 알고리즘](CodingTest/알고리즘/최단경로_알고리즘.md)
+</details>
 
-- 📄 [[프로그래머스] 도넛과 막대 그래프](CodingTest/그래프/[프로그래머스]%20도넛과%20막대%20그래프.md)
-- 📄 [[프로그래머스] 순위](CodingTest/그래프/[프로그래머스]%20순위.md)
-
-#### 스택 / 큐
-
-- 📄 [[프로그래머스] 다리를 지나는 트럭](CodingTest/스택_큐/[프로그래머스]%20다리를%20지나는%20트럭.md)
-- 📄 [[프로그래머스] 선인장 숨기기](CodingTest/스택_큐/[프로그래머스]%20선인장%20숨기기.md)
-- 📄 [[프로그래머스] 주식가격](CodingTest/스택_큐/[프로그래머스]%20주식가격.md)
-- 📄 [[프로그래머스] 충돌위험 찾기](CodingTest/스택_큐/[프로그래머스]%20충돌위험%20찾기.md)
-- 📄 [[프로그래머스] 프로세스](CodingTest/스택_큐/[프로그래머스]%20프로세스.md)
-- 📄 [[프로그래머스] 햄버거 만들기](CodingTest/스택_큐/[프로그래머스]%20햄버거%20만들기.md)
-
-#### 해시
-
-- 📄 [[프로그래머스] 베스트 앨범](CodingTest/해시/[프로그래머스]%20베스트%20앨범.md)
-- 📄 [[프로그래머스] 완주하지 못 한 선수](CodingTest/해시/[프로그래머스]%20완주하지%20못%20한%20선수.md)
-- 📄 [[프로그래머스] 의상](CodingTest/해시/[프로그래머스]%20의상.md)
-- 📄 [[프로그래머스] 전화번호 목록](CodingTest/해시/[프로그래머스]%20전화번호%20목록.md)
-- 📄 [[프로그래머스] 폰켓몬](CodingTest/해시/[프로그래머스]%20폰켓몬.md)
-
-#### 힙
-
-- 📄 [[프로그래머스] 더 맵게](CodingTest/힙/[프로그래머스]%20더%20맵게.md)
-- 📄 [[프로그래머스] 디스크 컨트롤러](CodingTest/힙/[프로그래머스]%20디스크%20컨트롤러.md)
-- 📄 [[프로그래머스] 이중 우선 순위 큐](CodingTest/힙/[프로그래머스]%20이중%20우선%20순위%20%20큐.md)
-
-#### 완전탐색
-
-- 📄 [[프로그래머스] N-Queen](CodingTest/완전탐색/[프로그래머스]%20N-Queen.md)
-- 📄 [[프로그래머스] 가장 긴 팰린드롬](CodingTest/완전탐색/[프로그래머스]%20가장%20긴%20팰린드롬.md)
-- 📄 [[프로그래머스] 노란불 신호등](CodingTest/완전탐색/[프로그래머스]%20노란불%20신호등.md)
-- 📄 [[프로그래머스] 모음사전](CodingTest/완전탐색/[프로그래머스]%20모음사전.md)
-- 📄 [[프로그래머스] 몸짱 트레이너 라이언의 고민](CodingTest/완전탐색/[프로그래머스]%20몸짱%20트레이너%20라이언의%20고민.md)
-- 📄 [[프로그래머스] 바이러스 파이프](CodingTest/완전탐색/[프로그래머스]%20바이러스%20파이프.md)
-- 📄 [[프로그래머스] 소수 찾기](CodingTest/완전탐색/[프로그래머스]%20소수%20찾기.md)
-- 📄 [[프로그래머스] 전력망을 둘로 나누기](CodingTest/완전탐색/[프로그래머스]%20전력망을%20둘로%20나누기.md)
-- 📄 [[프로그래머스] 캠핑](CodingTest/완전탐색/[프로그래머스]%20캠핑.md)
-- 📄 [[프로그래머스] 후보키](CodingTest/완전탐색/[프로그래머스]%20후보키.md)
-
-#### 이분탐색
-
-- 📄 [[프로그래머스] 선입 선출 스케줄링](CodingTest/이분탐색/[프로그래머스]%20선입%20선출%20스케줄링.md)
-- 📄 [[프로그래머스] 입국심사](CodingTest/이분탐색/[프로그래머스]%20입국심사.md)
-- 📄 [[프로그래머스] 징검다리](CodingTest/이분탐색/[프로그래머스]%20징검다리.md)
-
-#### 정렬
-
-- 📄 [[프로그래머스] H-Index](CodingTest/정렬/[프로그래머스]%20H-Index.md)
-- 📄 [[프로그래머스] 가장 큰 수](CodingTest/정렬/[프로그래머스]%20가장%20큰%20수.md)
-- 📄 [[프로그래머스] 실패율](CodingTest/정렬/[프로그래머스]%20실패율.md)
-- 📄 [[프로그래머스] 파일명 정렬](CodingTest/정렬/[프로그래머스]%20파일명%20정렬.md)
-
----
-
-### Algorithm
-
-- 📄 [2-SAT](CodingTest/알고리즘/2_SAT.md)
-- 📄 [BitMask](CodingTest/알고리즘/BitMask.md)
-- 📄 [DP](CodingTest/알고리즘/DP.md)
-- 📄 [Eulerian Path](CodingTest/알고리즘/Eulerian_Path.md)
-- 📄 [Floyd-Warshall](CodingTest/알고리즘/Floyd_Warshall.md)
-- 📄 [Lambda](CodingTest/알고리즘/Lambda.md)
-- 📄 [PQ Comparator](CodingTest/알고리즘/PQ_Comperator.md)
-- 📄 [Prim / Kruskal](CodingTest/알고리즘/Prim_Kruskal.md)
-- 📄 [최단경로 알고리즘](CodingTest/알고리즘/최단경로_알고리즘.md)
+<details>
+<summary><h3>Retry List</h3></summary>
+  
+* 📄 [다시 풀어볼 문제](CodingTest/Retry_List.md)
+</details>
 
 </details>
 
