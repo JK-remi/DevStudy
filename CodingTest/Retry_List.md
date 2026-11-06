@@ -52,6 +52,7 @@
 |[**브라이언의 고민**](https://school.programmers.co.kr/learn/courses/30/lessons/1830#)|[풀이](./구현_시뮬/[프로그래머스]%20브라이언의%20고민.md)|[Floyd Warshall](./알고리즘/Floyd_Warshall.md)<br>[2-SAT](./알고리즘/2_SAT.md)|
 |[*리틀 프렌즈 사천성*](https://school.programmers.co.kr/learn/courses/30/lessons/1836)|[풀이](./구현_시뮬/[프로그래머스]%20리틀%20프렌즈%20사천성.md)||
 |[*매칭 점수*](https://school.programmers.co.kr/learn/courses/30/lessons/42893)|[풀이](./구현_시뮬/[프로그래머스]%20매칭%20점수.md)|[부동 소수점 계산 오차](./구현_시뮬/[프로그래머스]%20매칭%20점수.md#참고)|
+|[*기둥과 보 설치*](https://school.programmers.co.kr/learn/courses/30/lessons/60061)|[풀이](./구현_시뮬/[프로그래머스]%20기둥과%20보%20설치.md)||
 
 # 그래프
 |문제|풀이|참고|
