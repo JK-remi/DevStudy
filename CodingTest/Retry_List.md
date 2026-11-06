@@ -6,8 +6,9 @@
 # 완전 탐색
 |문제|풀이|참고|
 |--|-----|-----|
-|[**캠핑**](https://school.programmers.co.kr/learn/courses/30/lessons/1833)|[풀이](./완전탐색/[프로그래머스]%20캠핑.md)||
 |*[**몸짱 트레이너 라이언의 고민**](https://school.programmers.co.kr/learn/courses/30/lessons/1838)|[풀이](./완전탐색/[프로그래머스]%20몸짱%20트레이너%20라이언의%20고민.md)||
+|[**캠핑**](https://school.programmers.co.kr/learn/courses/30/lessons/1833)|[풀이](./완전탐색/[프로그래머스]%20캠핑.md)||
+|[**외벽 점검**](https://school.programmers.co.kr/learn/courses/30/lessons/60062)|[풀이](./완전탐색/[프로그래머스]%20외벽%20점검.md)||
 |[가장 긴 팰린드롬](https://school.programmers.co.kr/learn/courses/30/lessons/12904)|[풀이](./완전탐색/[프로그래머스]%20가장%20긴%20팰린드롬.md)||
 |[자물쇠와 열쇠](https://school.programmers.co.kr/learn/courses/30/lessons/60059)|[풀이](./완전탐색/[프로그래머스]%20자물쇠와%20열쇠.md)||
 
