@@ -59,3 +59,8 @@
 |문제|풀이|참고|
 |--|-----|-----|
 |[길 찾기 게임](https://school.programmers.co.kr/learn/courses/30/lessons/42892)|[풀이](./그래프/[프로그래머스]%20길%20찾기%20게임.md)||
+
+# DFS BFS
+|문제|풀이|참고|
+|--|-----|-----|
+|[**블록 이동하기**](https://school.programmers.co.kr/learn/courses/30/lessons/60063)|[풀이](./DFS_BFS/[프로그래머스]%20블록%20이동하기.md)|BFS|
