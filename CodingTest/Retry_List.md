@@ -64,3 +64,8 @@
 |문제|풀이|참고|
 |--|-----|-----|
 |[**블록 이동하기**](https://school.programmers.co.kr/learn/courses/30/lessons/60063)|[풀이](./DFS_BFS/[프로그래머스]%20블록%20이동하기.md)|BFS|
+
+# 해시
+|문제|풀이|참고|
+|--|-----|-----|
+|[**보석 쇼핑**](https://school.programmers.co.kr/learn/courses/30/lessons/67258)|[풀이](./해시/[프로그래머스]%20보석%20쇼핑.md)|투포인터, 슬라이딩 윈도|
