@@ -64,6 +64,7 @@
 |문제|풀이|참고|
 |--|-----|-----|
 |[**블록 이동하기**](https://school.programmers.co.kr/learn/courses/30/lessons/60063)|[풀이](./DFS_BFS/[프로그래머스]%20블록%20이동하기.md)|BFS|
+|[*경주로 건설*](https://school.programmers.co.kr/learn/courses/30/lessons/67259)|[풀이](./DFS_BFS/[프로그래머스]%20경주로%20건설.md)|[최단 경로](./알고리즘/최단경로_알고리즘.md)|
 
 # 해시
 |문제|풀이|참고|
