@@ -23,6 +23,7 @@
 |[**야근 지수**](https://school.programmers.co.kr/learn/courses/30/lessons/12927)|[풀이](./그리디/[프로그래머스]%20야근%20지수.md)||
 |[**최고의 집합**](https://school.programmers.co.kr/learn/courses/30/lessons/12938)|[풀이](./그리디/[프로그래머스]%20최고의%20집합.md)||
 |[*풍선 터트리기*](https://school.programmers.co.kr/learn/courses/30/lessons/68646)|[풀이](./그리디/[프로그래머스]%20풍선%20터트리기.md)||
+|[*스타 수열*](https://school.programmers.co.kr/learn/courses/30/lessons/70130)|[풀이](./그리디/[프로그래머스]%20스타%20수열.md)||
 |[기지국 설치](https://school.programmers.co.kr/learn/courses/30/lessons/12979)|[풀이](./그리디/[프로그래머스]%20기지국%20설치.md)||
 
 # DP
