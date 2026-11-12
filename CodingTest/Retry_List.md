@@ -61,6 +61,7 @@
 |문제|풀이|참고|
 |--|-----|-----|
 |[길 찾기 게임](https://school.programmers.co.kr/learn/courses/30/lessons/42892)|[풀이](./그래프/[프로그래머스]%20길%20찾기%20게임.md)||
+|[*합승 택시 요금*](https://school.programmers.co.kr/learn/courses/30/lessons/72413)|[풀이](./그래프/[프로그래머스]%20합승%20택시%20요금.md)|[Dijkstra](./알고리즘/최단경로_알고리즘.md#4-Dijkstra)<br>[Floyd-Warshall](./알고리즘/Floyd_Warshall.md#1-최단-거리-가중치-그래프)|
 
 # DFS BFS
 |문제|풀이|참고|
