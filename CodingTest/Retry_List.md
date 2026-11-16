@@ -58,6 +58,7 @@
 |[*리틀 프렌즈 사천성*](https://school.programmers.co.kr/learn/courses/30/lessons/1836)|[풀이](./구현_시뮬/[프로그래머스]%20리틀%20프렌즈%20사천성.md)||
 |[*매칭 점수*](https://school.programmers.co.kr/learn/courses/30/lessons/42893)|[풀이](./구현_시뮬/[프로그래머스]%20매칭%20점수.md)|[부동 소수점 계산 오차](./구현_시뮬/[프로그래머스]%20매칭%20점수.md#참고)|
 |[*기둥과 보 설치*](https://school.programmers.co.kr/learn/courses/30/lessons/60061)|[풀이](./구현_시뮬/[프로그래머스]%20기둥과%20보%20설치.md)||
+|[다단계 칫솔 판매](https://school.programmers.co.kr/learn/courses/30/lessons/77486#)|[풀이](./구현_시뮬/[프로그래머스]%20다단계%20칫솔%20판매.md)||
 
 # 그래프
 |문제|풀이|참고|
