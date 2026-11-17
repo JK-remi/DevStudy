@@ -2,6 +2,7 @@
 |문제|풀이|참고|
 |--|-----|-----|
 |[**선인장 숨기기**](https://school.programmers.co.kr/learn/courses/30/lessons/468379)|[풀이](./스택_큐/[프로그래머스]%20선인장%20숨기기.md)|
+|[**110 옮기기**](https://school.programmers.co.kr/learn/courses/30/lessons/77886)|[풀이](./스택_큐/[프로그래머스]%20110%20옮기기.md)|
 
 # 완전 탐색
 |문제|풀이|참고|
