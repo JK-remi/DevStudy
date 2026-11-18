@@ -1,8 +1,9 @@
 # 스택, 큐
 |문제|풀이|참고|
 |--|-----|-----|
-|[**선인장 숨기기**](https://school.programmers.co.kr/learn/courses/30/lessons/468379)|[풀이](./스택_큐/[프로그래머스]%20선인장%20숨기기.md)|
-|[**110 옮기기**](https://school.programmers.co.kr/learn/courses/30/lessons/77886)|[풀이](./스택_큐/[프로그래머스]%20110%20옮기기.md)|
+|[**선인장 숨기기**](https://school.programmers.co.kr/learn/courses/30/lessons/468379)|[풀이](./스택_큐/[프로그래머스]%20선인장%20숨기기.md)||
+|[**110 옮기기**](https://school.programmers.co.kr/learn/courses/30/lessons/77886)|[풀이](./스택_큐/[프로그래머스]%20110%20옮기기.md)||
+|[**표 편집**](https://school.programmers.co.kr/learn/courses/30/lessons/81303)|[풀이](./스택_큐/[프로그래머스]%20표%20편집.md)|[이중 연결 리스트-센티널](./스택_큐/[프로그래머스]%20표%20편집.md#센티널-Sentinel)|
 
 # 완전 탐색
 |문제|풀이|참고|
