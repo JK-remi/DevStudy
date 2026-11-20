@@ -55,6 +55,7 @@
 # 구현, 시뮬레이션
 |문제|풀이|참고|
 |--|-----|-----|
+|*[**공 이동 시뮬레이션**](https://school.programmers.co.kr/learn/courses/30/lessons/87391)|[풀이](./구현_시뮬/[프로그래머스]%20공%20이동%20시뮬레이션.md)||
 |[**리프 노드 수 최대화**](https://school.programmers.co.kr/learn/courses/30/lessons/468372)|[풀이](./구현_시뮬/[프로그래머스]%20리프%20노드%20수%20최대화.md)||
 |[**브라이언의 고민**](https://school.programmers.co.kr/learn/courses/30/lessons/1830#)|[풀이](./구현_시뮬/[프로그래머스]%20브라이언의%20고민.md)|[Floyd Warshall](./알고리즘/Floyd_Warshall.md)<br>[2-SAT](./알고리즘/2_SAT.md)|
 |[**광고 삽입**](https://school.programmers.co.kr/learn/courses/30/lessons/72414#fn1)|[풀이](./구현_시뮬/[프로그래머스]%20광고%20삽입.md)|prefix sum, [imos](./구현_시뮬/[프로그래머스]%20광고%20삽입.md#imos)|
