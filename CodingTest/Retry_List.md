@@ -9,6 +9,7 @@
 |문제|풀이|참고|
 |--|-----|-----|
 |*[**몸짱 트레이너 라이언의 고민**](https://school.programmers.co.kr/learn/courses/30/lessons/1838)|[풀이](./완전탐색/[프로그래머스]%20몸짱%20트레이너%20라이언의%20고민.md)||
+|*[**사라지는 발판**](https://school.programmers.co.kr/learn/courses/30/lessons/92345)|[풀이](./완전탐색/[프로그래머스]%20사라지는%20발판.md)|[Minimax](./완전탐색/[프로그래머스]%20사라지는%20발판.md#minimax)|
 |[**캠핑**](https://school.programmers.co.kr/learn/courses/30/lessons/1833)|[풀이](./완전탐색/[프로그래머스]%20캠핑.md)||
 |[**외벽 점검**](https://school.programmers.co.kr/learn/courses/30/lessons/60062)|[풀이](./완전탐색/[프로그래머스]%20외벽%20점검.md)||
 |[*카드 짝 맞추기*](https://school.programmers.co.kr/learn/courses/30/lessons/72415)|[풀이](./완전탐색/[프로그래머스]%20카드%20짝%20맞추기.md)||
